@@ -1,0 +1,32 @@
+[MODEL]
+model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+ordering = "score"
+
+    [BENDERS.SUBPROBLEM_SCORING.score]
+    scale_score = true
+    weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+[BENDERS.SUBPROBLEM_SELECTION]
+strategy = "static"
+stabilization_frequency = 20
+root_node_stabilization = 5
+score_initialization_enabled = true
+
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+    min_score_threshold = 0.5
+
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+        absolute = 5
+        mode = "absolute"
+
+[BENDERS.ML]
+learning_rate = 0.05
+regularization = 0.02
+
+[BENDERS.CUT_FILTERING]
+strategy = "none"
+
+[LOGGING]
+subproblem_log = false

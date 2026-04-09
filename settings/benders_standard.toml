@@ -1,0 +1,11 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "none"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "none"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

@@ -1,0 +1,27 @@
+# Prediction-based adaptive selection with 20 scenarios and unlimited root node stabilization
+# ML predicts proportion of subproblems that will yield cuts
+
+[MODEL]
+model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "adaptive"
+    stabilization_frequency = 20
+    root_node_stabilization = -1
+
+    [BENDERS.SUBPROBLEM_SELECTION.adaptive]
+    mode = "prediction_based"
+    
+        [BENDERS.SUBPROBLEM_SELECTION.adaptive.prediction_based]
+        learning_rate = 0.2
+        regularization = 0.1
+        history_decay = 0.9
+        default_proportion = 0.5
+        min_proportion = 0.1
+        max_proportion = 0.7
+
+[BENDERS.SUBPROBLEM_SCORING]
+ordering = "score"
+
+    [BENDERS.SUBPROBLEM_SCORING.score]
+    weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]

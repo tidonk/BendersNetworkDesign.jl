@@ -1,0 +1,15 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS]
+    subproblem_log = true
+    subproblem_log_success = false
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

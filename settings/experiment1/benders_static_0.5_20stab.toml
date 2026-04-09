@@ -1,0 +1,29 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+    [BENDERS.SUBPROBLEM_SCORING.score]
+    # Use ML predictions for scoring (weight 6)
+    # [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+    weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+
+    stabilization_frequency = 1
+
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+    # --- Stopping Criteria ---
+    # These must be defined BEFORE nested tables due to TOML parsing rules
+    
+    # Minimum score threshold - stop when next scenario score falls below this
+    # Use -1.0 to disable
+    min_score_threshold = 0.5
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"
+[BENDERS.ML]
+[LOGGING]
+    #subproblem_log = true

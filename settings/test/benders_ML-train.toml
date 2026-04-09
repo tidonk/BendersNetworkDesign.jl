@@ -1,0 +1,24 @@
+# Benders Standard with ML Training
+# Solves all scenarios to train ML model, then exports it
+
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "none"
+    
+    [BENDERS.SUBPROBLEM_SCORING.score]
+    # Enable ML scoring (weight 6) to train the model
+    # [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+    weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "none"  # Solve all scenarios for training
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"
+
+[BENDERS.ML]
+    # Export trained model to check/models/
+    model_write = true
+

@@ -1,0 +1,9 @@
+name = "BendersNetworkDesignDocs"
+version = "0.3.0"
+
+[deps]
+BendersNetworkDesign = "784dc5bb-9998-42b7-ab89-ae6a20055d62"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[compat]
+Documenter = "1"

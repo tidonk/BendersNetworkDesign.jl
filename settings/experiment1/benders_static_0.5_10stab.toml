@@ -1,0 +1,21 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+
+    stabilization_frequency = 10
+
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+    # --- Stopping Criteria ---
+    # These must be defined BEFORE nested tables due to TOML parsing rules
+    
+    # Minimum score threshold - stop when next scenario score falls below this
+    # Use -1.0 to disable
+    min_score_threshold = 0.5
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

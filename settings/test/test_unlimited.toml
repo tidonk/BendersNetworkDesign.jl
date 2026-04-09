@@ -1,0 +1,39 @@
+# Simple test with more lenient settings
+
+[SOLVER]
+    SOLVER = "Gurobi"
+    time_limit = 600
+
+[MODEL]
+    model_type = "benders"
+
+[SCENARIOS]
+    num_outage_scenarios = -1  
+    outage_sampling_seed = 42
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "none"  # No ordering, just solve in order
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+    stabilization_frequency = 0  # Disabled
+    
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        min_score_threshold = -1.0  # Disabled
+        iteration_time_limit = -1.0  # Disabled
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            mode = "absolute"
+            absolute = -1  # Unlimited
+            relative = 1.0
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.consecutive_miss]
+            mode = "absolute"
+            absolute = -1  # Disabled
+            relative = 1.0
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"
+
+[BENDERS.DEBUG]
+    validate_cuts = true

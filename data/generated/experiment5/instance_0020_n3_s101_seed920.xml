@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network xmlns="http://sndlib.zib.de/network" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sndlib.zib.de/network http://sndlib.zib.de/sndlib/network/network.xsd">
+  <networkStructure>
+    <nodes>
+      <node id="n1_N2">
+        <coordinates>
+          <x>8.41</x>
+          <y>50.07</y>
+        </coordinates>
+      </node>
+      <node id="n1_N3">
+        <coordinates>
+          <x>8.24</x>
+          <y>49.01</y>
+        </coordinates>
+      </node>
+      <node id="n1_N4">
+        <coordinates>
+          <x>9.11</x>
+          <y>48.47</y>
+        </coordinates>
+      </node>
+      <node id="n1_N5">
+        <coordinates>
+          <x>11.34</x>
+          <y>48.08</y>
+        </coordinates>
+      </node>
+      <node id="n1_N6">
+        <coordinates>
+          <x>11.05</x>
+          <y>49.27</y>
+        </coordinates>
+      </node>
+      <node id="n1_N8">
+        <coordinates>
+          <x>12.22</x>
+          <y>51.21</y>
+        </coordinates>
+      </node>
+      <node id="n1_N9">
+        <coordinates>
+          <x>9.44</x>
+          <y>52.23</y>
+        </coordinates>
+      </node>
+      <node id="n2_Bialystok">
+        <coordinates>
+          <x>23.1</x>
+          <y>53.1</y>
+        </coordinates>
+      </node>
+      <node id="n2_Katowice">
+        <coordinates>
+          <x>18.8</x>
+          <y>50.3</y>
+        </coordinates>
+      </node>
+      <node id="n2_Krakow">
+        <coordinates>
+          <x>19.8</x>
+          <y>50.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_Lodz">
+        <coordinates>
+          <x>19.4</x>
+          <y>51.7</y>
+        </coordinates>
+      </node>
+      <node id="n2_Rzeszow">
+        <coordinates>
+          <x>21.9</x>
+          <y>50.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_Warsaw">
+        <coordinates>
+          <x>21.0</x>
+          <y>52.2</y>
+        </coordinates>
+      </node>
+      <node id="n2_Wroclaw">
+        <coordinates>
+          <x>16.9</x>
+          <y>51.1</y>
+        </coordinates>
+      </node>
+      <node id="n3_N1">
+        <coordinates>
+          <x>86.0</x>
+          <y>534.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N15">
+        <coordinates>
+          <x>528.0</x>
+          <y>348.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N16">
+        <coordinates>
+          <x>388.0</x>
+          <y>464.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N17">
+        <coordinates>
+          <x>418.0</x>
+          <y>353.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N18">
+        <coordinates>
+          <x>278.0</x>
+          <y>327.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N19">
+        <coordinates>
+          <x>181.0</x>
+          <y>355.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N2">
+        <coordinates>
+          <x>67.0</x>
+          <y>405.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N20">
+        <coordinates>
+          <x>144.0</x>
+          <y>485.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N21">
+        <coordinates>
+          <x>139.0</x>
+          <y>588.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N22">
+        <coordinates>
+          <x>233.0</x>
+          <y>627.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N23">
+        <coordinates>
+          <x>365.0</x>
+          <y>645.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N24">
+        <coordinates>
+          <x>355.0</x>
+          <y>544.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N25">
+        <coordinates>
+          <x>534.0</x>
+          <y>566.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N27">
+        <coordinates>
+          <x>246.0</x>
+          <y>506.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N3">
+        <coordinates>
+          <x>82.0</x>
+          <y>303.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N4">
+        <coordinates>
+          <x>127.0</x>
+          <y>197.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_N5">
+        <coordinates>
+          <x>197.0</x>
+          <y>119.0</y>
+        </coordinates>
+      </node>
+    </nodes>
+    <links>
+      <link id="inter_n1_N2_n2_Lodz">
+        <source>n1_N2</source>
+        <target>n2_Lodz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_N2_n3_N20">
+        <source>n1_N2</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_N5_n2_Katowice">
+        <source>n1_N5</source>
+        <target>n2_Katowice</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_N5_n3_N24">
+        <source>n1_N5</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_N6_n2_Warsaw">
+        <source>n1_N6</source>
+        <target>n2_Warsaw</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_N6_n3_N19">
+        <source>n1_N6</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_Katowice_n1_N5">
+        <source>n2_Katowice</source>
+        <target>n1_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_Lodz_n1_N2">
+        <source>n2_Lodz</source>
+        <target>n1_N2</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_Warsaw_n1_N6">
+        <source>n2_Warsaw</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_Warsaw_n3_N22">
+        <source>n2_Warsaw</source>
+        <target>n3_N22</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n3_N19_n1_N6">
+        <source>n3_N19</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n3_N20_n1_N2">
+        <source>n3_N20</source>
+        <target>n1_N2</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n3_N22_n2_Warsaw">
+        <source>n3_N22</source>
+        <target>n2_Warsaw</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n3_N24_n1_N5">
+        <source>n3_N24</source>
+        <target>n1_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L12">
+        <source>n1_N2</source>
+        <target>n1_N3</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>8401.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>66496.2</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>154798.1</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L14">
+        <source>n1_N2</source>
+        <target>n1_N4</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>10714.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>78550.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>189762.6</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L15">
+        <source>n1_N2</source>
+        <target>n1_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>13974.300000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>94233.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>236268.90000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L16">
+        <source>n1_N2</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>11377.300000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>81738.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>199215.1</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L17">
+        <source>n1_N2</source>
+        <target>n1_N8</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>13682.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>92830.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>232109.80000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L18">
+        <source>n1_N3</source>
+        <target>n1_N4</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>7015.900000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>58904.3</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>133067.1</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L19">
+        <source>n1_N3</source>
+        <target>n1_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L20">
+        <source>n1_N3</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>11297.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>81355.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>198080.80000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L21">
+        <source>n1_N4</source>
+        <target>n1_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>10343.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>76765.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>184469.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L22">
+        <source>n1_N4</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>10264.300000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>76383.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>183334.90000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L23">
+        <source>n1_N5</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>9116.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>70414.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>166014.1</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L26">
+        <source>n1_N5</source>
+        <target>n1_N8</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>15193.300000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>100098.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>253661.5</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L27">
+        <source>n1_N6</source>
+        <target>n1_N8</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>11960.300000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>84543.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>207533.30000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L31">
+        <source>n1_N9</source>
+        <target>n1_N2</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>12463.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>86965.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>214717.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L32">
+        <source>n1_N9</source>
+        <target>n1_N6</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>15034.300000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>99333.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>251392.90000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L34">
+        <source>n1_N9</source>
+        <target>n1_N8</target>
+        <additionalModules>
+          <addModule>
+            <capacity>30.0</capacity>
+            <cost>11721.800000000001</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>83395.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>1920.0</capacity>
+            <cost>204130.40000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_3_11">
+        <source>n2_Katowice</source>
+        <target>n2_Wroclaw</target>
+        <setupCost>20.8</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>20.8</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>62.400000000000006</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_3_4">
+        <source>n2_Katowice</source>
+        <target>n2_Krakow</target>
+        <setupCost>20.8</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>20.8</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>62.400000000000006</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_3_6">
+        <source>n2_Katowice</source>
+        <target>n2_Lodz</target>
+        <setupCost>18.1</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>18.1</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>54.300000000000004</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_4_10">
+        <source>n2_Krakow</source>
+        <target>n2_Warsaw</target>
+        <setupCost>32.4</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>32.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>97.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_4_8">
+        <source>n2_Krakow</source>
+        <target>n2_Rzeszow</target>
+        <setupCost>25.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>25.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>75.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_5_10">
+        <source>n2_Bialystok</source>
+        <target>n2_Warsaw</target>
+        <setupCost>25.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>25.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>75.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_5_8">
+        <source>n2_Bialystok</source>
+        <target>n2_Rzeszow</target>
+        <setupCost>32.4</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>32.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>97.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_6_10">
+        <source>n2_Lodz</source>
+        <target>n2_Warsaw</target>
+        <setupCost>16.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>16.5</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>49.5</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_Link_6_11">
+        <source>n2_Lodz</source>
+        <target>n2_Wroclaw</target>
+        <setupCost>30.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>30.5</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>91.5</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L1">
+        <source>n3_N1</source>
+        <target>n3_N2</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.555</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L101">
+        <source>n3_N24</source>
+        <target>n3_N27</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>0.801</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L102">
+        <source>n3_N27</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>0.801</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L2">
+        <source>n3_N2</source>
+        <target>n3_N1</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.555</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L3">
+        <source>n3_N2</source>
+        <target>n3_N3</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.834</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L31">
+        <source>n3_N23</source>
+        <target>n3_N25</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.7120000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L32">
+        <source>n3_N25</source>
+        <target>n3_N23</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.7120000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L33">
+        <source>n3_N24</source>
+        <target>n3_N25</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.508</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L34">
+        <source>n3_N25</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.508</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L35">
+        <source>n3_N23</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>0.42000000000000004</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L36">
+        <source>n3_N24</source>
+        <target>n3_N23</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>0.42000000000000004</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L37">
+        <source>n3_N22</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.95</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L38">
+        <source>n3_N24</source>
+        <target>n3_N22</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.95</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L39">
+        <source>n3_N23</source>
+        <target>n3_N27</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.154</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L4">
+        <source>n3_N3</source>
+        <target>n3_N2</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.834</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L40">
+        <source>n3_N27</source>
+        <target>n3_N23</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.154</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L41">
+        <source>n3_N22</source>
+        <target>n3_N23</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5420000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L42">
+        <source>n3_N23</source>
+        <target>n3_N22</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5420000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L43">
+        <source>n3_N21</source>
+        <target>n3_N22</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>0.7190000000000001</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L44">
+        <source>n3_N22</source>
+        <target>n3_N21</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>0.7190000000000001</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L45">
+        <source>n3_N1</source>
+        <target>n3_N21</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.12</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L46">
+        <source>n3_N21</source>
+        <target>n3_N1</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.12</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L47">
+        <source>n3_N20</source>
+        <target>n3_N21</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.406</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L48">
+        <source>n3_N21</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.406</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L49">
+        <source>n3_N1</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.705</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L5">
+        <source>n3_N3</source>
+        <target>n3_N4</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.8000000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L50">
+        <source>n3_N20</source>
+        <target>n3_N1</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.705</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L51">
+        <source>n3_N20</source>
+        <target>n3_N22</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.6850000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L52">
+        <source>n3_N22</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.6850000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L53">
+        <source>n3_N2</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.7590000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L54">
+        <source>n3_N20</source>
+        <target>n3_N2</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.7590000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L55">
+        <source>n3_N20</source>
+        <target>n3_N27</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.174</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L56">
+        <source>n3_N27</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.174</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L57">
+        <source>n3_N22</source>
+        <target>n3_N27</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.936</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L58">
+        <source>n3_N27</source>
+        <target>n3_N22</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.936</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L59">
+        <source>n3_N19</source>
+        <target>n3_N20</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.623</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L6">
+        <source>n3_N4</source>
+        <target>n3_N3</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.8000000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L60">
+        <source>n3_N20</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.623</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L61">
+        <source>n3_N19</source>
+        <target>n3_N27</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.508</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L62">
+        <source>n3_N27</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.508</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L63">
+        <source>n3_N4</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>4.554</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L64">
+        <source>n3_N19</source>
+        <target>n3_N4</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>4.554</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L65">
+        <source>n3_N18</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.4260000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L66">
+        <source>n3_N19</source>
+        <target>n3_N18</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.4260000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L67">
+        <source>n3_N16</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.766</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L68">
+        <source>n3_N19</source>
+        <target>n3_N16</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.766</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L69">
+        <source>n3_N19</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.9300000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L7">
+        <source>n3_N4</source>
+        <target>n3_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>3.358</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L70">
+        <source>n3_N24</source>
+        <target>n3_N19</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.9300000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L71">
+        <source>n3_N16</source>
+        <target>n3_N24</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5140000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L72">
+        <source>n3_N24</source>
+        <target>n3_N16</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5140000000000002</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L75">
+        <source>n3_N15</source>
+        <target>n3_N16</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.0050000000000001</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L76">
+        <source>n3_N16</source>
+        <target>n3_N15</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1.0050000000000001</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L8">
+        <source>n3_N5</source>
+        <target>n3_N4</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>3.358</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L81">
+        <source>n3_N16</source>
+        <target>n3_N17</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5420000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L82">
+        <source>n3_N17</source>
+        <target>n3_N16</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5420000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L83">
+        <source>n3_N16</source>
+        <target>n3_N18</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5420000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L84">
+        <source>n3_N18</source>
+        <target>n3_N16</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>2.5420000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L85">
+        <source>n3_N17</source>
+        <target>n3_N18</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>3.8200000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L86">
+        <source>n3_N18</source>
+        <target>n3_N17</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>3.8200000000000003</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L87">
+        <source>n3_N5</source>
+        <target>n3_N18</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>3.276</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L88">
+        <source>n3_N18</source>
+        <target>n3_N5</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>3.276</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+    </links>
+  </networkStructure>
+  <demands>
+    <demand id="n1_D1">
+      <source>n1_N9</source>
+      <target>n1_N2</target>
+      <demandValue>384.0</demandValue>
+    </demand>
+    <demand id="n1_D10">
+      <source>n1_N6</source>
+      <target>n1_N8</target>
+      <demandValue>115.0</demandValue>
+    </demand>
+    <demand id="n1_D13">
+      <source>n1_N5</source>
+      <target>n1_N8</target>
+      <demandValue>108.0</demandValue>
+    </demand>
+    <demand id="n1_D14">
+      <source>n1_N4</source>
+      <target>n1_N5</target>
+      <demandValue>105.0</demandValue>
+    </demand>
+    <demand id="n1_D15">
+      <source>n1_N9</source>
+      <target>n1_N8</target>
+      <demandValue>100.0</demandValue>
+    </demand>
+    <demand id="n1_D17">
+      <source>n1_N5</source>
+      <target>n1_N6</target>
+      <demandValue>95.0</demandValue>
+    </demand>
+    <demand id="n1_D18">
+      <source>n1_N2</source>
+      <target>n1_N3</target>
+      <demandValue>278.0</demandValue>
+    </demand>
+    <demand id="n1_D2">
+      <source>n1_N3</source>
+      <target>n1_N4</target>
+      <demandValue>215.0</demandValue>
+    </demand>
+    <demand id="n1_D23">
+      <source>n1_N2</source>
+      <target>n1_N6</target>
+      <demandValue>237.0</demandValue>
+    </demand>
+    <demand id="n1_D24">
+      <source>n1_N2</source>
+      <target>n1_N4</target>
+      <demandValue>237.0</demandValue>
+    </demand>
+    <demand id="n1_D6">
+      <source>n1_N2</source>
+      <target>n1_N8</target>
+      <demandValue>160.0</demandValue>
+    </demand>
+    <demand id="n1_D7">
+      <source>n1_N2</source>
+      <target>n1_N5</target>
+      <demandValue>144.0</demandValue>
+    </demand>
+    <demand id="n1_D9">
+      <source>n1_N3</source>
+      <target>n1_N5</target>
+      <demandValue>124.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_10_11">
+      <source>n2_Warsaw</source>
+      <target>n2_Wroclaw</target>
+      <demandValue>141.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_3_10">
+      <source>n2_Katowice</source>
+      <target>n2_Warsaw</target>
+      <demandValue>126.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_3_11">
+      <source>n2_Katowice</source>
+      <target>n2_Wroclaw</target>
+      <demandValue>100.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_3_4">
+      <source>n2_Katowice</source>
+      <target>n2_Krakow</target>
+      <demandValue>194.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_3_5">
+      <source>n2_Katowice</source>
+      <target>n2_Bialystok</target>
+      <demandValue>125.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_3_6">
+      <source>n2_Katowice</source>
+      <target>n2_Lodz</target>
+      <demandValue>110.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_3_8">
+      <source>n2_Katowice</source>
+      <target>n2_Rzeszow</target>
+      <demandValue>159.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_4_10">
+      <source>n2_Krakow</source>
+      <target>n2_Warsaw</target>
+      <demandValue>119.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_4_11">
+      <source>n2_Krakow</source>
+      <target>n2_Wroclaw</target>
+      <demandValue>127.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_4_5">
+      <source>n2_Krakow</source>
+      <target>n2_Bialystok</target>
+      <demandValue>124.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_4_6">
+      <source>n2_Krakow</source>
+      <target>n2_Lodz</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_4_8">
+      <source>n2_Krakow</source>
+      <target>n2_Rzeszow</target>
+      <demandValue>144.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_5_10">
+      <source>n2_Bialystok</source>
+      <target>n2_Warsaw</target>
+      <demandValue>104.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_5_11">
+      <source>n2_Bialystok</source>
+      <target>n2_Wroclaw</target>
+      <demandValue>113.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_5_6">
+      <source>n2_Bialystok</source>
+      <target>n2_Lodz</target>
+      <demandValue>105.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_5_8">
+      <source>n2_Bialystok</source>
+      <target>n2_Rzeszow</target>
+      <demandValue>140.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_6_10">
+      <source>n2_Lodz</source>
+      <target>n2_Warsaw</target>
+      <demandValue>193.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_6_11">
+      <source>n2_Lodz</source>
+      <target>n2_Wroclaw</target>
+      <demandValue>151.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_6_8">
+      <source>n2_Lodz</source>
+      <target>n2_Rzeszow</target>
+      <demandValue>187.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_8_10">
+      <source>n2_Rzeszow</source>
+      <target>n2_Warsaw</target>
+      <demandValue>181.0</demandValue>
+    </demand>
+    <demand id="n2_Demand_8_11">
+      <source>n2_Rzeszow</source>
+      <target>n2_Wroclaw</target>
+      <demandValue>193.0</demandValue>
+    </demand>
+    <demand id="n3_D12">
+      <source>n3_N17</source>
+      <target>n3_N21</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n3_D13">
+      <source>n3_N17</source>
+      <target>n3_N19</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n3_D14">
+      <source>n3_N17</source>
+      <target>n3_N15</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_D17">
+      <source>n3_N17</source>
+      <target>n3_N1</target>
+      <demandValue>14.0</demandValue>
+    </demand>
+    <demand id="n3_D18">
+      <source>n3_N17</source>
+      <target>n3_N4</target>
+      <demandValue>13.0</demandValue>
+    </demand>
+    <demand id="n3_D19">
+      <source>n3_N17</source>
+      <target>n3_N22</target>
+      <demandValue>8.0</demandValue>
+    </demand>
+    <demand id="n3_D20">
+      <source>n3_N17</source>
+      <target>n3_N25</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n3_D32">
+      <source>n3_N3</source>
+      <target>n3_N23</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_D33">
+      <source>n3_N3</source>
+      <target>n3_N1</target>
+      <demandValue>8.0</demandValue>
+    </demand>
+    <demand id="n3_D35">
+      <source>n3_N3</source>
+      <target>n3_N5</target>
+      <demandValue>14.0</demandValue>
+    </demand>
+    <demand id="n3_D36">
+      <source>n3_N3</source>
+      <target>n3_N16</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_D37">
+      <source>n3_N3</source>
+      <target>n3_N15</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_D39">
+      <source>n3_N3</source>
+      <target>n3_N21</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_D40">
+      <source>n3_N3</source>
+      <target>n3_N20</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n3_D42">
+      <source>n3_N5</source>
+      <target>n3_N21</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n3_D44">
+      <source>n3_N5</source>
+      <target>n3_N4</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n3_D45">
+      <source>n3_N5</source>
+      <target>n3_N22</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_D48">
+      <source>n3_N5</source>
+      <target>n3_N25</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n3_D49">
+      <source>n3_N5</source>
+      <target>n3_N23</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_D50">
+      <source>n3_N5</source>
+      <target>n3_N3</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n3_D63">
+      <source>n3_N17</source>
+      <target>n3_N16</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n3_D64">
+      <source>n3_N17</source>
+      <target>n3_N23</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_D65">
+      <source>n3_N3</source>
+      <target>n3_N2</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_D66">
+      <source>n3_N3</source>
+      <target>n3_N4</target>
+      <demandValue>14.0</demandValue>
+    </demand>
+  </demands>
+</network>

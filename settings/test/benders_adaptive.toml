@@ -1,0 +1,14 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "adaptive"
+
+    [BENDERS.SUBPROBLEM_SELECTION.adaptive]
+        mode = "phase_based"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

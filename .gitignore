@@ -1,0 +1,11 @@
+check/results
+check/logs
+check/plots
+
+# Documentation build directory
+docs/build/
+
+# Coverage files
+*.cov
+*.lcov
+coverage.xml

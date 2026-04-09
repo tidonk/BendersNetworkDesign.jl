@@ -1,0 +1,19 @@
+# Oracle Write Mode Settings for Testing
+# Write mode uses strategy="oracle" with mode="write" to record all cuts
+# All other settings should match benders_standard for deterministic baseline
+
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "none"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "oracle"
+    
+    [BENDERS.SUBPROBLEM_SELECTION.oracle]
+        mode = "write"
+        filepath = "check/oracle/test_abilene.csv"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

@@ -1,0 +1,36 @@
+# Benders Static with ML-based Scoring
+# Uses trained ML model to prioritize scenarios
+
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+    
+    [BENDERS.SUBPROBLEM_SCORING.score]
+    # Use ML predictions for scoring
+    # [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+    weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
+    scale_score = true
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+    stabilization_frequency = 20
+    score_initialization_enabled = true
+
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+    min_score_threshold = 0.7
+
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            mode = "absolute"
+            absolute = -1
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"
+
+[BENDERS.ML]
+    # Import trained model - path will be overridden by script
+
+[LOGGING]
+    subproblem_log = false

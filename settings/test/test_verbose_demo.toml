@@ -1,0 +1,10 @@
+# Quick test with verbose output
+[SOLVER]
+    time_limit = 60
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    stabilization_frequency = 5
+
+[BENDERS.DEBUG]
+    subproblem_verbose = true
+    subproblem_verbose_cuts_only = false

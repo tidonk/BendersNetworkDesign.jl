@@ -1,0 +1,42 @@
+# Test configuration for static cut limit strategy
+
+[SOLVER]
+    SOLVER = "Gurobi"
+    time_limit = 300  # 5 minutes for testing
+
+[MODEL]
+    model_type = "benders"
+
+[SCENARIOS]
+    num_outage_scenarios = -1  # Use all scenarios
+    outage_sampling_seed = 42
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+    
+    [BENDERS.SUBPROBLEM_SCORING.score]
+        weights = [0.3, 0.3, 0.0, 0.3, 0.1, 0.0]  # [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+    stabilization_frequency = 10
+    
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        min_score_threshold = 0.1
+        iteration_time_limit = -1.0
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            mode = "absolute"
+            absolute = 5
+            relative = 0.1
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.consecutive_miss]
+            mode = "absolute"
+            absolute = 100
+            relative = 0.5
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"
+
+[BENDERS.DEBUG]
+    validate_cuts = true

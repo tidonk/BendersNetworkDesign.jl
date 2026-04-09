@@ -1,0 +1,314 @@
+# Experiment 2: ML Scoring Evaluation
+# All SNDlib instances with default + 3 ML configurations
+# Format: <network_file>;<settings_file>
+
+# Settings configurations:
+# 1. default.toml - baseline with full ML weight (100%)
+# 2. benders_ML-0.7-5C-20S-5R.toml -    ML Score 0.7,   5 cuts max, 20 stabilization, 5 root stabilization
+# 3. benders_ML-0.7-10C-20S-5R.toml -   ML Score 0.7,  10 cuts max, 20 stabilization, 5 root stabilization
+# 4. benders_ML-0.5-20S.toml -          ML Score 0.7,               20 stabilization
+# 5. benders_ML-0.5-5C-20S-5R.toml -    ML Score 0.5,   5 cuts max, 20 stabilization, 5 root stabilization
+# 6. benders_ML-0.5-10C-20S-5R.toml -   ML Score 0.5,  10 cuts max, 20 stabilization, 5 root stabilization
+# 7. benders_ML-0.5-20S.toml -          ML Score 0.5,               20 stabilization
+# 8. benders_ML-5C-20S.toml -                           5 cuts max, 20 stabilization
+# 9. benders_ML-10C-20S.toml -                         10 cuts max, 20 stabilization
+
+# DFN-BWIN (10 nodes, 45 links)
+../../data/sndlib/dfn-bwin.xml;../settings/default.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_standard.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/dfn-bwin.xml;../settings/benders_ML-10C-20S.toml
+
+# Di-Yuan (11 nodes, 42 links)
+../../data/sndlib/di-yuan.xml;../settings/default.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_standard.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/di-yuan.xml;../settings/benders_ML-10C-20S.toml
+
+# PDH (11 nodes, 34 links)
+../../data/sndlib/pdh.xml;../settings/default.toml
+../../data/sndlib/pdh.xml;../settings/benders_standard.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/pdh.xml;../settings/benders_ML-10C-20S.toml
+
+# Abilene (12 nodes, 15 links)
+../../data/sndlib/abilene.xml;../settings/default.toml
+../../data/sndlib/abilene.xml;../settings/benders_standard.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/abilene.xml;../settings/benders_ML-10C-20S.toml
+
+# Polska (12 nodes, 18 links)
+../../data/sndlib/polska.xml;../settings/default.toml
+../../data/sndlib/polska.xml;../settings/benders_standard.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/polska.xml;../settings/benders_ML-10C-20S.toml
+
+# Norway (27 nodes, 51 links)
+../../data/sndlib/norway.xml;../settings/default.toml
+../../data/sndlib/norway.xml;../settings/benders_standard.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/norway.xml;../settings/benders_ML-10C-20S.toml
+
+# Sun (27 nodes, 51 links)
+../../data/sndlib/sun.xml;../settings/default.toml
+../../data/sndlib/sun.xml;../settings/benders_standard.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/sun.xml;../settings/benders_ML-10C-20S.toml
+
+# TA2 (65 nodes, 108 links)
+../../data/sndlib/ta2.xml;../settings/default.toml
+../../data/sndlib/ta2.xml;../settings/benders_standard.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/ta2.xml;../settings/benders_ML-10C-20S.toml
+
+# Cost266 (37 nodes, 57 links)
+../../data/sndlib/cost266.xml;../settings/default.toml
+../../data/sndlib/cost266.xml;../settings/benders_standard.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/cost266.xml;../settings/benders_ML-10C-20S.toml
+
+# Giul39 (39 nodes, 86 links)
+../../data/sndlib/giul39.xml;../settings/default.toml
+../../data/sndlib/giul39.xml;../settings/benders_standard.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/giul39.xml;../settings/benders_ML-10C-20S.toml
+
+# Pioro40 (40 nodes, 89 links)
+../../data/sndlib/pioro40.xml;../settings/default.toml
+../../data/sndlib/pioro40.xml;../settings/benders_standard.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/pioro40.xml;../settings/benders_ML-10C-20S.toml
+
+# TA1 (24 nodes, 55 links)
+../../data/sndlib/ta1.xml;../settings/default.toml
+../../data/sndlib/ta1.xml;../settings/benders_standard.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/ta1.xml;../settings/benders_ML-10C-20S.toml
+
+# NewYork (16 nodes, 49 links)
+../../data/sndlib/newyork.xml;../settings/default.toml
+../../data/sndlib/newyork.xml;../settings/benders_standard.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/newyork.xml;../settings/benders_ML-10C-20S.toml
+
+# Nobel-Germany (17 nodes, 26 links)
+../../data/sndlib/nobel-germany.xml;../settings/default.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_standard.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/nobel-germany.xml;../settings/benders_ML-10C-20S.toml
+
+# Nobel-EU (28 nodes, 41 links)
+../../data/sndlib/nobel-eu.xml;../settings/default.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_standard.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/nobel-eu.xml;../settings/benders_ML-10C-20S.toml
+
+# Nobel-US (14 nodes, 21 links)
+../../data/sndlib/nobel-us.xml;../settings/default.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_standard.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/nobel-us.xml;../settings/benders_ML-10C-20S.toml
+
+# Atlanta (15 nodes, 22 links)
+../../data/sndlib/atlanta.xml;../settings/default.toml
+../../data/sndlib/atlanta.xml;../settings/benders_standard.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/atlanta.xml;../settings/benders_ML-10C-20S.toml
+
+# France (25 nodes, 45 links)
+../../data/sndlib/france.xml;../settings/default.toml
+../../data/sndlib/france.xml;../settings/benders_standard.toml
+../../data/sndlib/france.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/france.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/france.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/france.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/france.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/france.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/france.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/france.xml;../settings/benders_ML-10C-20S.toml
+
+# Janos-US (26 nodes, 42 links)
+../../data/sndlib/janos-us.xml;../settings/default.toml
+../../data/sndlib/janos-us.xml;../settings/benders_standard.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/janos-us.xml;../settings/benders_ML-10C-20S.toml
+
+# Janos-US-CA (39 nodes, 61 links)
+../../data/sndlib/janos-us-ca.xml;../settings/default.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_standard.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/janos-us-ca.xml;../settings/benders_ML-10C-20S.toml
+
+# India35 (35 nodes, 80 links)
+../../data/sndlib/india35.xml;../settings/default.toml
+../../data/sndlib/india35.xml;../settings/benders_standard.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/india35.xml;../settings/benders_ML-10C-20S.toml
+
+# Zib54 (54 nodes, 81 links)
+../../data/sndlib/zib54.xml;../settings/default.toml
+../../data/sndlib/zib54.xml;../settings/benders_standard.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/zib54.xml;../settings/benders_ML-10C-20S.toml
+
+# Germany50 (50 nodes, 88 links)
+../../data/sndlib/germany50.xml;../settings/default.toml
+../../data/sndlib/germany50.xml;../settings/benders_standard.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/germany50.xml;../settings/benders_ML-10C-20S.toml
+
+# Geant (22 nodes, 36 links)
+../../data/sndlib/geant.xml;../settings/default.toml
+../../data/sndlib/geant.xml;../settings/benders_standard.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/geant.xml;../settings/benders_ML-10C-20S.toml
+
+# Brain (161 nodes, 332 links)
+../../data/sndlib/brain.xml;../settings/default.toml
+../../data/sndlib/brain.xml;../settings/benders_standard.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-0.7-5C-20S-5R.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-0.7-10C-20S-5R.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-0.7-20S.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-0.5-5C-20S-5R.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-0.5-10C-20S-5R.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-0.5-20S.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-5C-20S.toml
+../../data/sndlib/brain.xml;../settings/benders_ML-10C-20S.toml

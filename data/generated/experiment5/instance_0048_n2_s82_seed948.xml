@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network xmlns="http://sndlib.zib.de/network" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sndlib.zib.de/network http://sndlib.zib.de/sndlib/network/network.xsd">
+  <networkStructure>
+    <nodes>
+      <node id="n1_Bayreuth">
+        <coordinates>
+          <x>11.59</x>
+          <y>49.93</y>
+        </coordinates>
+      </node>
+      <node id="n1_Berlin">
+        <coordinates>
+          <x>13.39</x>
+          <y>52.52</y>
+        </coordinates>
+      </node>
+      <node id="n1_Bielefeld">
+        <coordinates>
+          <x>8.5</x>
+          <y>52.04</y>
+        </coordinates>
+      </node>
+      <node id="n1_Braunschweig">
+        <coordinates>
+          <x>10.55</x>
+          <y>52.28</y>
+        </coordinates>
+      </node>
+      <node id="n1_Bremen">
+        <coordinates>
+          <x>8.85</x>
+          <y>53.11</y>
+        </coordinates>
+      </node>
+      <node id="n1_Bremerhaven">
+        <coordinates>
+          <x>8.58</x>
+          <y>53.54</y>
+        </coordinates>
+      </node>
+      <node id="n1_Chemnitz">
+        <coordinates>
+          <x>12.93</x>
+          <y>50.84</y>
+        </coordinates>
+      </node>
+      <node id="n1_Dortmund">
+        <coordinates>
+          <x>7.45</x>
+          <y>51.51</y>
+        </coordinates>
+      </node>
+      <node id="n1_Dresden">
+        <coordinates>
+          <x>13.73</x>
+          <y>51.03</y>
+        </coordinates>
+      </node>
+      <node id="n1_Erfurt">
+        <coordinates>
+          <x>11.04</x>
+          <y>50.98</y>
+        </coordinates>
+      </node>
+      <node id="n1_Essen">
+        <coordinates>
+          <x>7.02</x>
+          <y>51.46</y>
+        </coordinates>
+      </node>
+      <node id="n1_Flensburg">
+        <coordinates>
+          <x>9.45</x>
+          <y>54.77</y>
+        </coordinates>
+      </node>
+      <node id="n1_Frankfurt">
+        <coordinates>
+          <x>8.71</x>
+          <y>50.12</y>
+        </coordinates>
+      </node>
+      <node id="n1_Fulda">
+        <coordinates>
+          <x>9.69</x>
+          <y>50.56</y>
+        </coordinates>
+      </node>
+      <node id="n1_Giessen">
+        <coordinates>
+          <x>8.67</x>
+          <y>50.57</y>
+        </coordinates>
+      </node>
+      <node id="n1_Greifswald">
+        <coordinates>
+          <x>13.4</x>
+          <y>54.09</y>
+        </coordinates>
+      </node>
+      <node id="n1_Hamburg">
+        <coordinates>
+          <x>9.99</x>
+          <y>53.57</y>
+        </coordinates>
+      </node>
+      <node id="n1_Hannover">
+        <coordinates>
+          <x>9.72</x>
+          <y>52.38</y>
+        </coordinates>
+      </node>
+      <node id="n1_Kaiserslautern">
+        <coordinates>
+          <x>7.75</x>
+          <y>49.43</y>
+        </coordinates>
+      </node>
+      <node id="n1_Kassel">
+        <coordinates>
+          <x>9.51</x>
+          <y>51.32</y>
+        </coordinates>
+      </node>
+      <node id="n1_Kiel">
+        <coordinates>
+          <x>10.12</x>
+          <y>54.34</y>
+        </coordinates>
+      </node>
+      <node id="n1_Koblenz">
+        <coordinates>
+          <x>7.52</x>
+          <y>50.4</y>
+        </coordinates>
+      </node>
+      <node id="n1_Leipzig">
+        <coordinates>
+          <x>12.38</x>
+          <y>51.34</y>
+        </coordinates>
+      </node>
+      <node id="n1_Magdeburg">
+        <coordinates>
+          <x>11.64</x>
+          <y>52.14</y>
+        </coordinates>
+      </node>
+      <node id="n1_Muenster">
+        <coordinates>
+          <x>7.6</x>
+          <y>51.97</y>
+        </coordinates>
+      </node>
+      <node id="n1_Oldenburg">
+        <coordinates>
+          <x>8.21</x>
+          <y>53.11</y>
+        </coordinates>
+      </node>
+      <node id="n1_Osnabrueck">
+        <coordinates>
+          <x>8.03</x>
+          <y>52.28</y>
+        </coordinates>
+      </node>
+      <node id="n1_Schwerin">
+        <coordinates>
+          <x>11.45</x>
+          <y>53.55</y>
+        </coordinates>
+      </node>
+      <node id="n1_Siegen">
+        <coordinates>
+          <x>8.03</x>
+          <y>50.91</y>
+        </coordinates>
+      </node>
+      <node id="n1_Wuerzburg">
+        <coordinates>
+          <x>9.97</x>
+          <y>49.78</y>
+        </coordinates>
+      </node>
+      <node id="n2_N1">
+        <coordinates>
+          <x>237.0</x>
+          <y>338.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N12">
+        <coordinates>
+          <x>277.0</x>
+          <y>70.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N13">
+        <coordinates>
+          <x>540.0</x>
+          <y>147.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N14">
+        <coordinates>
+          <x>592.0</x>
+          <y>503.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N15">
+        <coordinates>
+          <x>490.0</x>
+          <y>349.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N2">
+        <coordinates>
+          <x>130.0</x>
+          <y>207.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N5">
+        <coordinates>
+          <x>345.0</x>
+          <y>232.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N6">
+        <coordinates>
+          <x>95.0</x>
+          <y>350.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N7">
+        <coordinates>
+          <x>302.0</x>
+          <y>404.0</y>
+        </coordinates>
+      </node>
+    </nodes>
+    <links>
+      <link id="inter_n1_Braunschweig_n2_N15">
+        <source>n1_Braunschweig</source>
+        <target>n2_N15</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_Hannover_n2_N1">
+        <source>n1_Hannover</source>
+        <target>n2_N1</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_Leipzig_n2_N13">
+        <source>n1_Leipzig</source>
+        <target>n2_N13</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N13_n1_Leipzig">
+        <source>n2_N13</source>
+        <target>n1_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N15_n1_Braunschweig">
+        <source>n2_N15</source>
+        <target>n1_Braunschweig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N1_n1_Hannover">
+        <source>n2_N1</source>
+        <target>n1_Hannover</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L12">
+        <source>n1_Bielefeld</source>
+        <target>n1_Muenster</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L13">
+        <source>n1_Osnabrueck</source>
+        <target>n1_Muenster</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L14">
+        <source>n1_Siegen</source>
+        <target>n1_Koblenz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L15">
+        <source>n1_Frankfurt</source>
+        <target>n1_Koblenz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L16">
+        <source>n1_Kaiserslautern</source>
+        <target>n1_Koblenz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L18">
+        <source>n1_Bielefeld</source>
+        <target>n1_Siegen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L19">
+        <source>n1_Giessen</source>
+        <target>n1_Siegen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L2">
+        <source>n1_Dortmund</source>
+        <target>n1_Essen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L22">
+        <source>n1_Leipzig</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L23">
+        <source>n1_Dresden</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L24">
+        <source>n1_Schwerin</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L25">
+        <source>n1_Magdeburg</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L26">
+        <source>n1_Greifswald</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L27">
+        <source>n1_Dresden</source>
+        <target>n1_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L28">
+        <source>n1_Erfurt</source>
+        <target>n1_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L29">
+        <source>n1_Magdeburg</source>
+        <target>n1_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L30">
+        <source>n1_Bayreuth</source>
+        <target>n1_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L31">
+        <source>n1_Erfurt</source>
+        <target>n1_Dresden</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L32">
+        <source>n1_Chemnitz</source>
+        <target>n1_Dresden</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L33">
+        <source>n1_Chemnitz</source>
+        <target>n1_Erfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L34">
+        <source>n1_Kassel</source>
+        <target>n1_Erfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L35">
+        <source>n1_Wuerzburg</source>
+        <target>n1_Erfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L36">
+        <source>n1_Bayreuth</source>
+        <target>n1_Chemnitz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L37">
+        <source>n1_Magdeburg</source>
+        <target>n1_Schwerin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L38">
+        <source>n1_Greifswald</source>
+        <target>n1_Schwerin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L39">
+        <source>n1_Hamburg</source>
+        <target>n1_Schwerin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L40">
+        <source>n1_Kiel</source>
+        <target>n1_Schwerin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L41">
+        <source>n1_Braunschweig</source>
+        <target>n1_Magdeburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L42">
+        <source>n1_Kiel</source>
+        <target>n1_Hamburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L43">
+        <source>n1_Hannover</source>
+        <target>n1_Hamburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L44">
+        <source>n1_Braunschweig</source>
+        <target>n1_Hamburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L45">
+        <source>n1_Oldenburg</source>
+        <target>n1_Bremen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L46">
+        <source>n1_Bremerhaven</source>
+        <target>n1_Bremen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L47">
+        <source>n1_Hannover</source>
+        <target>n1_Bremen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L48">
+        <source>n1_Flensburg</source>
+        <target>n1_Kiel</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L50">
+        <source>n1_Osnabrueck</source>
+        <target>n1_Oldenburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L51">
+        <source>n1_Bremerhaven</source>
+        <target>n1_Flensburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L52">
+        <source>n1_Bielefeld</source>
+        <target>n1_Hannover</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L53">
+        <source>n1_Braunschweig</source>
+        <target>n1_Hannover</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L54">
+        <source>n1_Osnabrueck</source>
+        <target>n1_Hannover</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L55">
+        <source>n1_Braunschweig</source>
+        <target>n1_Bielefeld</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L56">
+        <source>n1_Kassel</source>
+        <target>n1_Braunschweig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L57">
+        <source>n1_Giessen</source>
+        <target>n1_Kassel</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L58">
+        <source>n1_Fulda</source>
+        <target>n1_Kassel</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L60">
+        <source>n1_Giessen</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L61">
+        <source>n1_Fulda</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L67">
+        <source>n1_Fulda</source>
+        <target>n1_Giessen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L69">
+        <source>n1_Wuerzburg</source>
+        <target>n1_Fulda</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L7">
+        <source>n1_Muenster</source>
+        <target>n1_Dortmund</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L8">
+        <source>n1_Siegen</source>
+        <target>n1_Dortmund</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_L9">
+        <source>n1_Kassel</source>
+        <target>n1_Dortmund</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L1">
+        <source>n2_N1</source>
+        <target>n2_N2</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>4440.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>5440.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L10">
+        <source>n2_N2</source>
+        <target>n2_N6</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>5960.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>6960.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L11">
+        <source>n2_N2</source>
+        <target>n2_N12</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>7480.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>8480.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L12">
+        <source>n2_N2</source>
+        <target>n2_N13</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>10520.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>11520.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L13">
+        <source>n2_N2</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>10520.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>11520.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L2">
+        <source>n2_N1</source>
+        <target>n2_N5</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>5960.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>6960.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L24">
+        <source>n2_N5</source>
+        <target>n2_N12</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>5960.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>6960.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L25">
+        <source>n2_N5</source>
+        <target>n2_N13</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>9000.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>10000.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L26">
+        <source>n2_N5</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>10520.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>11520.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L27">
+        <source>n2_N6</source>
+        <target>n2_N7</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>5960.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>6960.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L3">
+        <source>n2_N1</source>
+        <target>n2_N6</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>5960.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>6960.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L32">
+        <source>n2_N7</source>
+        <target>n2_N12</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>12040.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>13040.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L33">
+        <source>n2_N7</source>
+        <target>n2_N13</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>13560.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>14560.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L34">
+        <source>n2_N7</source>
+        <target>n2_N14</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>13560.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>14560.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L35">
+        <source>n2_N7</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>9000.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>10000.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L4">
+        <source>n2_N1</source>
+        <target>n2_N7</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>7480.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>8480.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L44">
+        <source>n2_N12</source>
+        <target>n2_N13</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>5960.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>6960.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L45">
+        <source>n2_N12</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>9000.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>10000.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L46">
+        <source>n2_N13</source>
+        <target>n2_N14</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>15080.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>16080.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L47">
+        <source>n2_N13</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>7480.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>8480.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L48">
+        <source>n2_N14</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>10520.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>11520.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L6">
+        <source>n2_N1</source>
+        <target>n2_N12</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>7480.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>8480.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L7">
+        <source>n2_N1</source>
+        <target>n2_N13</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>10520.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>11520.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L8">
+        <source>n2_N1</source>
+        <target>n2_N15</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>9000.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>10000.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_L9">
+        <source>n2_N2</source>
+        <target>n2_N5</target>
+        <routingCost>0.2</routingCost>
+        <additionalModules>
+          <addModule>
+            <capacity>1000.0</capacity>
+            <cost>2920.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>4000.0</capacity>
+            <cost>3920.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+    </links>
+  </networkStructure>
+  <demands>
+    <demand id="n1_Bayreuth_Wuerzburg">
+      <source>n1_Bayreuth</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Bayreuth">
+      <source>n1_Berlin</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Bielefeld">
+      <source>n1_Berlin</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Braunschweig">
+      <source>n1_Berlin</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Bremen">
+      <source>n1_Berlin</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Bremerhaven">
+      <source>n1_Berlin</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Chemnitz">
+      <source>n1_Berlin</source>
+      <target>n1_Chemnitz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Dresden">
+      <source>n1_Berlin</source>
+      <target>n1_Dresden</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Erfurt">
+      <source>n1_Berlin</source>
+      <target>n1_Erfurt</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Frankfurt">
+      <source>n1_Berlin</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>16.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Fulda">
+      <source>n1_Berlin</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Giessen">
+      <source>n1_Berlin</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Greifswald">
+      <source>n1_Berlin</source>
+      <target>n1_Greifswald</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Hamburg">
+      <source>n1_Berlin</source>
+      <target>n1_Hamburg</target>
+      <demandValue>23.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Hannover">
+      <source>n1_Berlin</source>
+      <target>n1_Hannover</target>
+      <demandValue>25.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Kaiserslautern">
+      <source>n1_Berlin</source>
+      <target>n1_Kaiserslautern</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Kassel">
+      <source>n1_Berlin</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Kiel">
+      <source>n1_Berlin</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Leipzig">
+      <source>n1_Berlin</source>
+      <target>n1_Leipzig</target>
+      <demandValue>20.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Magdeburg">
+      <source>n1_Berlin</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Oldenburg">
+      <source>n1_Berlin</source>
+      <target>n1_Oldenburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Osnabrueck">
+      <source>n1_Berlin</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Schwerin">
+      <source>n1_Berlin</source>
+      <target>n1_Schwerin</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Berlin_Wuerzburg">
+      <source>n1_Berlin</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Bayreuth">
+      <source>n1_Bielefeld</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Braunschweig">
+      <source>n1_Bielefeld</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Frankfurt">
+      <source>n1_Bielefeld</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Fulda">
+      <source>n1_Bielefeld</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Giessen">
+      <source>n1_Bielefeld</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Kassel">
+      <source>n1_Bielefeld</source>
+      <target>n1_Kassel</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Osnabrueck">
+      <source>n1_Bielefeld</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n1_Bielefeld_Wuerzburg">
+      <source>n1_Bielefeld</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Braunschweig_Frankfurt">
+      <source>n1_Braunschweig</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Braunschweig_Kassel">
+      <source>n1_Braunschweig</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Bielefeld">
+      <source>n1_Bremen</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Braunschweig">
+      <source>n1_Bremen</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Bremerhaven">
+      <source>n1_Bremen</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Flensburg">
+      <source>n1_Bremen</source>
+      <target>n1_Flensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Frankfurt">
+      <source>n1_Bremen</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Giessen">
+      <source>n1_Bremen</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Hannover">
+      <source>n1_Bremen</source>
+      <target>n1_Hannover</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Kassel">
+      <source>n1_Bremen</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Kiel">
+      <source>n1_Bremen</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Oldenburg">
+      <source>n1_Bremen</source>
+      <target>n1_Oldenburg</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Osnabrueck">
+      <source>n1_Bremen</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremen_Wuerzburg">
+      <source>n1_Bremen</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremerhaven_Bielefeld">
+      <source>n1_Bremerhaven</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremerhaven_Frankfurt">
+      <source>n1_Bremerhaven</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Bremerhaven_Hannover">
+      <source>n1_Bremerhaven</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Bayreuth">
+      <source>n1_Chemnitz</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Bielefeld">
+      <source>n1_Chemnitz</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Braunschweig">
+      <source>n1_Chemnitz</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Frankfurt">
+      <source>n1_Chemnitz</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Giessen">
+      <source>n1_Chemnitz</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Hamburg">
+      <source>n1_Chemnitz</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Hannover">
+      <source>n1_Chemnitz</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Magdeburg">
+      <source>n1_Chemnitz</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Schwerin">
+      <source>n1_Chemnitz</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Chemnitz_Wuerzburg">
+      <source>n1_Chemnitz</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Berlin">
+      <source>n1_Dortmund</source>
+      <target>n1_Berlin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Bielefeld">
+      <source>n1_Dortmund</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>8.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Braunschweig">
+      <source>n1_Dortmund</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Bremen">
+      <source>n1_Dortmund</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Bremerhaven">
+      <source>n1_Dortmund</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Chemnitz">
+      <source>n1_Dortmund</source>
+      <target>n1_Chemnitz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Dresden">
+      <source>n1_Dortmund</source>
+      <target>n1_Dresden</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Erfurt">
+      <source>n1_Dortmund</source>
+      <target>n1_Erfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Flensburg">
+      <source>n1_Dortmund</source>
+      <target>n1_Flensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Frankfurt">
+      <source>n1_Dortmund</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Fulda">
+      <source>n1_Dortmund</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Giessen">
+      <source>n1_Dortmund</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Greifswald">
+      <source>n1_Dortmund</source>
+      <target>n1_Greifswald</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Hamburg">
+      <source>n1_Dortmund</source>
+      <target>n1_Hamburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Hannover">
+      <source>n1_Dortmund</source>
+      <target>n1_Hannover</target>
+      <demandValue>15.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Kassel">
+      <source>n1_Dortmund</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Kiel">
+      <source>n1_Dortmund</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Koblenz">
+      <source>n1_Dortmund</source>
+      <target>n1_Koblenz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Leipzig">
+      <source>n1_Dortmund</source>
+      <target>n1_Leipzig</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Magdeburg">
+      <source>n1_Dortmund</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Muenster">
+      <source>n1_Dortmund</source>
+      <target>n1_Muenster</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Oldenburg">
+      <source>n1_Dortmund</source>
+      <target>n1_Oldenburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Osnabrueck">
+      <source>n1_Dortmund</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Schwerin">
+      <source>n1_Dortmund</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Siegen">
+      <source>n1_Dortmund</source>
+      <target>n1_Siegen</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n1_Dortmund_Wuerzburg">
+      <source>n1_Dortmund</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Bayreuth">
+      <source>n1_Dresden</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Bielefeld">
+      <source>n1_Dresden</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Braunschweig">
+      <source>n1_Dresden</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Bremen">
+      <source>n1_Dresden</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Chemnitz">
+      <source>n1_Dresden</source>
+      <target>n1_Chemnitz</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Erfurt">
+      <source>n1_Dresden</source>
+      <target>n1_Erfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Frankfurt">
+      <source>n1_Dresden</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Greifswald">
+      <source>n1_Dresden</source>
+      <target>n1_Greifswald</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Hamburg">
+      <source>n1_Dresden</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Hannover">
+      <source>n1_Dresden</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Kassel">
+      <source>n1_Dresden</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Kiel">
+      <source>n1_Dresden</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Magdeburg">
+      <source>n1_Dresden</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Schwerin">
+      <source>n1_Dresden</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Dresden_Wuerzburg">
+      <source>n1_Dresden</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Bayreuth">
+      <source>n1_Erfurt</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Bielefeld">
+      <source>n1_Erfurt</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Braunschweig">
+      <source>n1_Erfurt</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Bremen">
+      <source>n1_Erfurt</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Chemnitz">
+      <source>n1_Erfurt</source>
+      <target>n1_Chemnitz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Frankfurt">
+      <source>n1_Erfurt</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Fulda">
+      <source>n1_Erfurt</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Giessen">
+      <source>n1_Erfurt</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Hamburg">
+      <source>n1_Erfurt</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Hannover">
+      <source>n1_Erfurt</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Kassel">
+      <source>n1_Erfurt</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Kiel">
+      <source>n1_Erfurt</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Magdeburg">
+      <source>n1_Erfurt</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Schwerin">
+      <source>n1_Erfurt</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Erfurt_Wuerzburg">
+      <source>n1_Erfurt</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Berlin">
+      <source>n1_Essen</source>
+      <target>n1_Berlin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Bielefeld">
+      <source>n1_Essen</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Bremen">
+      <source>n1_Essen</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Chemnitz">
+      <source>n1_Essen</source>
+      <target>n1_Chemnitz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Dortmund">
+      <source>n1_Essen</source>
+      <target>n1_Dortmund</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Dresden">
+      <source>n1_Essen</source>
+      <target>n1_Dresden</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Erfurt">
+      <source>n1_Essen</source>
+      <target>n1_Erfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Frankfurt">
+      <source>n1_Essen</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Hamburg">
+      <source>n1_Essen</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Hannover">
+      <source>n1_Essen</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Kiel">
+      <source>n1_Essen</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Koblenz">
+      <source>n1_Essen</source>
+      <target>n1_Koblenz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Leipzig">
+      <source>n1_Essen</source>
+      <target>n1_Leipzig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Magdeburg">
+      <source>n1_Essen</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Muenster">
+      <source>n1_Essen</source>
+      <target>n1_Muenster</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Osnabrueck">
+      <source>n1_Essen</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Schwerin">
+      <source>n1_Essen</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Siegen">
+      <source>n1_Essen</source>
+      <target>n1_Siegen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Essen_Wuerzburg">
+      <source>n1_Essen</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Flensburg_Bielefeld">
+      <source>n1_Flensburg</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Flensburg_Bremerhaven">
+      <source>n1_Flensburg</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Flensburg_Frankfurt">
+      <source>n1_Flensburg</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n1_Flensburg_Hannover">
+      <source>n1_Flensburg</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Frankfurt_Bayreuth">
+      <source>n1_Frankfurt</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Frankfurt_Fulda">
+      <source>n1_Frankfurt</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Frankfurt_Giessen">
+      <source>n1_Frankfurt</source>
+      <target>n1_Giessen</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n1_Frankfurt_Kaiserslautern">
+      <source>n1_Frankfurt</source>
+      <target>n1_Kaiserslautern</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Frankfurt_Wuerzburg">
+      <source>n1_Frankfurt</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Fulda_Bayreuth">
+      <source>n1_Fulda</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Fulda_Wuerzburg">
+      <source>n1_Fulda</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Giessen_Fulda">
+      <source>n1_Giessen</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Giessen_Wuerzburg">
+      <source>n1_Giessen</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Greifswald_Bielefeld">
+      <source>n1_Greifswald</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Greifswald_Bremen">
+      <source>n1_Greifswald</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Greifswald_Frankfurt">
+      <source>n1_Greifswald</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Greifswald_Hamburg">
+      <source>n1_Greifswald</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Greifswald_Hannover">
+      <source>n1_Greifswald</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Greifswald_Kiel">
+      <source>n1_Greifswald</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Bielefeld">
+      <source>n1_Hamburg</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Braunschweig">
+      <source>n1_Hamburg</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Bremen">
+      <source>n1_Hamburg</source>
+      <target>n1_Bremen</target>
+      <demandValue>13.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Bremerhaven">
+      <source>n1_Hamburg</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Flensburg">
+      <source>n1_Hamburg</source>
+      <target>n1_Flensburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Frankfurt">
+      <source>n1_Hamburg</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Fulda">
+      <source>n1_Hamburg</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Giessen">
+      <source>n1_Hamburg</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Hannover">
+      <source>n1_Hamburg</source>
+      <target>n1_Hannover</target>
+      <demandValue>71.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Kassel">
+      <source>n1_Hamburg</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Kiel">
+      <source>n1_Hamburg</source>
+      <target>n1_Kiel</target>
+      <demandValue>14.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Oldenburg">
+      <source>n1_Hamburg</source>
+      <target>n1_Oldenburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Osnabrueck">
+      <source>n1_Hamburg</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hamburg_Wuerzburg">
+      <source>n1_Hamburg</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Bielefeld">
+      <source>n1_Hannover</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>25.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Braunschweig">
+      <source>n1_Hannover</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Frankfurt">
+      <source>n1_Hannover</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>49.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Fulda">
+      <source>n1_Hannover</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Giessen">
+      <source>n1_Hannover</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Kassel">
+      <source>n1_Hannover</source>
+      <target>n1_Kassel</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Osnabrueck">
+      <source>n1_Hannover</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Hannover_Wuerzburg">
+      <source>n1_Hannover</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kassel_Frankfurt">
+      <source>n1_Kassel</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kassel_Fulda">
+      <source>n1_Kassel</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kassel_Giessen">
+      <source>n1_Kassel</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Bayreuth">
+      <source>n1_Kiel</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Bielefeld">
+      <source>n1_Kiel</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Braunschweig">
+      <source>n1_Kiel</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Bremerhaven">
+      <source>n1_Kiel</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Flensburg">
+      <source>n1_Kiel</source>
+      <target>n1_Flensburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Frankfurt">
+      <source>n1_Kiel</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Hannover">
+      <source>n1_Kiel</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Kassel">
+      <source>n1_Kiel</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Oldenburg">
+      <source>n1_Kiel</source>
+      <target>n1_Oldenburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Kiel_Wuerzburg">
+      <source>n1_Kiel</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Berlin">
+      <source>n1_Koblenz</source>
+      <target>n1_Berlin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Bielefeld">
+      <source>n1_Koblenz</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Bremerhaven">
+      <source>n1_Koblenz</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Dresden">
+      <source>n1_Koblenz</source>
+      <target>n1_Dresden</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Frankfurt">
+      <source>n1_Koblenz</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Fulda">
+      <source>n1_Koblenz</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Giessen">
+      <source>n1_Koblenz</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Hamburg">
+      <source>n1_Koblenz</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Kaiserslautern">
+      <source>n1_Koblenz</source>
+      <target>n1_Kaiserslautern</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Kassel">
+      <source>n1_Koblenz</source>
+      <target>n1_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Osnabrueck">
+      <source>n1_Koblenz</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Siegen">
+      <source>n1_Koblenz</source>
+      <target>n1_Siegen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Koblenz_Wuerzburg">
+      <source>n1_Koblenz</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Bielefeld">
+      <source>n1_Leipzig</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Braunschweig">
+      <source>n1_Leipzig</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Chemnitz">
+      <source>n1_Leipzig</source>
+      <target>n1_Chemnitz</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Dresden">
+      <source>n1_Leipzig</source>
+      <target>n1_Dresden</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Erfurt">
+      <source>n1_Leipzig</source>
+      <target>n1_Erfurt</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Frankfurt">
+      <source>n1_Leipzig</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Greifswald">
+      <source>n1_Leipzig</source>
+      <target>n1_Greifswald</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Hamburg">
+      <source>n1_Leipzig</source>
+      <target>n1_Hamburg</target>
+      <demandValue>17.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Hannover">
+      <source>n1_Leipzig</source>
+      <target>n1_Hannover</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Magdeburg">
+      <source>n1_Leipzig</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Schwerin">
+      <source>n1_Leipzig</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Leipzig_Wuerzburg">
+      <source>n1_Leipzig</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Bayreuth">
+      <source>n1_Magdeburg</source>
+      <target>n1_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Bielefeld">
+      <source>n1_Magdeburg</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Braunschweig">
+      <source>n1_Magdeburg</source>
+      <target>n1_Braunschweig</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Bremen">
+      <source>n1_Magdeburg</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Frankfurt">
+      <source>n1_Magdeburg</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Greifswald">
+      <source>n1_Magdeburg</source>
+      <target>n1_Greifswald</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Hamburg">
+      <source>n1_Magdeburg</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Hannover">
+      <source>n1_Magdeburg</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Kiel">
+      <source>n1_Magdeburg</source>
+      <target>n1_Kiel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Magdeburg_Wuerzburg">
+      <source>n1_Magdeburg</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Berlin">
+      <source>n1_Muenster</source>
+      <target>n1_Berlin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Bielefeld">
+      <source>n1_Muenster</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Bremen">
+      <source>n1_Muenster</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Bremerhaven">
+      <source>n1_Muenster</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Frankfurt">
+      <source>n1_Muenster</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Fulda">
+      <source>n1_Muenster</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Hamburg">
+      <source>n1_Muenster</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Hannover">
+      <source>n1_Muenster</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Kassel">
+      <source>n1_Muenster</source>
+      <target>n1_Kassel</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Osnabrueck">
+      <source>n1_Muenster</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Schwerin">
+      <source>n1_Muenster</source>
+      <target>n1_Schwerin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Muenster_Siegen">
+      <source>n1_Muenster</source>
+      <target>n1_Siegen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Oldenburg_Bielefeld">
+      <source>n1_Oldenburg</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Oldenburg_Bremerhaven">
+      <source>n1_Oldenburg</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Oldenburg_Frankfurt">
+      <source>n1_Oldenburg</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Oldenburg_Hannover">
+      <source>n1_Oldenburg</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Oldenburg_Osnabrueck">
+      <source>n1_Oldenburg</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Osnabrueck_Frankfurt">
+      <source>n1_Osnabrueck</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Bielefeld">
+      <source>n1_Schwerin</source>
+      <target>n1_Bielefeld</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Bremen">
+      <source>n1_Schwerin</source>
+      <target>n1_Bremen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Frankfurt">
+      <source>n1_Schwerin</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Greifswald">
+      <source>n1_Schwerin</source>
+      <target>n1_Greifswald</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Hamburg">
+      <source>n1_Schwerin</source>
+      <target>n1_Hamburg</target>
+      <demandValue>8.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Hannover">
+      <source>n1_Schwerin</source>
+      <target>n1_Hannover</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Kiel">
+      <source>n1_Schwerin</source>
+      <target>n1_Kiel</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Magdeburg">
+      <source>n1_Schwerin</source>
+      <target>n1_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Schwerin_Wuerzburg">
+      <source>n1_Schwerin</source>
+      <target>n1_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Berlin">
+      <source>n1_Siegen</source>
+      <target>n1_Berlin</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Bremerhaven">
+      <source>n1_Siegen</source>
+      <target>n1_Bremerhaven</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Frankfurt">
+      <source>n1_Siegen</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Fulda">
+      <source>n1_Siegen</source>
+      <target>n1_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Giessen">
+      <source>n1_Siegen</source>
+      <target>n1_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Hamburg">
+      <source>n1_Siegen</source>
+      <target>n1_Hamburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n1_Siegen_Osnabrueck">
+      <source>n1_Siegen</source>
+      <target>n1_Osnabrueck</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D1">
+      <source>n2_N1</source>
+      <target>n2_N2</target>
+      <demandValue>42.0</demandValue>
+    </demand>
+    <demand id="n2_D101">
+      <source>n2_N7</source>
+      <target>n2_N12</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D102">
+      <source>n2_N7</source>
+      <target>n2_N13</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D103">
+      <source>n2_N7</source>
+      <target>n2_N14</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D104">
+      <source>n2_N7</source>
+      <target>n2_N15</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D11">
+      <source>n2_N1</source>
+      <target>n2_N12</target>
+      <demandValue>17.0</demandValue>
+    </demand>
+    <demand id="n2_D12">
+      <source>n2_N1</source>
+      <target>n2_N13</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n2_D13">
+      <source>n2_N1</source>
+      <target>n2_N14</target>
+      <demandValue>17.0</demandValue>
+    </demand>
+    <demand id="n2_D14">
+      <source>n2_N1</source>
+      <target>n2_N15</target>
+      <demandValue>17.0</demandValue>
+    </demand>
+    <demand id="n2_D16">
+      <source>n2_N2</source>
+      <target>n2_N1</target>
+      <demandValue>41.0</demandValue>
+    </demand>
+    <demand id="n2_D166">
+      <source>n2_N12</source>
+      <target>n2_N1</target>
+      <demandValue>29.0</demandValue>
+    </demand>
+    <demand id="n2_D167">
+      <source>n2_N12</source>
+      <target>n2_N2</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n2_D170">
+      <source>n2_N12</source>
+      <target>n2_N5</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D171">
+      <source>n2_N12</source>
+      <target>n2_N6</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D172">
+      <source>n2_N12</source>
+      <target>n2_N7</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D177">
+      <source>n2_N12</source>
+      <target>n2_N13</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n2_D178">
+      <source>n2_N12</source>
+      <target>n2_N14</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D179">
+      <source>n2_N12</source>
+      <target>n2_N15</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D181">
+      <source>n2_N13</source>
+      <target>n2_N1</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n2_D182">
+      <source>n2_N13</source>
+      <target>n2_N2</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n2_D185">
+      <source>n2_N13</source>
+      <target>n2_N5</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D186">
+      <source>n2_N13</source>
+      <target>n2_N6</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D187">
+      <source>n2_N13</source>
+      <target>n2_N7</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D19">
+      <source>n2_N2</source>
+      <target>n2_N5</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n2_D192">
+      <source>n2_N13</source>
+      <target>n2_N12</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n2_D193">
+      <source>n2_N13</source>
+      <target>n2_N14</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n2_D194">
+      <source>n2_N13</source>
+      <target>n2_N15</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n2_D196">
+      <source>n2_N14</source>
+      <target>n2_N1</target>
+      <demandValue>16.0</demandValue>
+    </demand>
+    <demand id="n2_D197">
+      <source>n2_N14</source>
+      <target>n2_N2</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n2_D20">
+      <source>n2_N2</source>
+      <target>n2_N6</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n2_D200">
+      <source>n2_N14</source>
+      <target>n2_N5</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D201">
+      <source>n2_N14</source>
+      <target>n2_N6</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D202">
+      <source>n2_N14</source>
+      <target>n2_N7</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D207">
+      <source>n2_N14</source>
+      <target>n2_N12</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D208">
+      <source>n2_N14</source>
+      <target>n2_N13</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n2_D209">
+      <source>n2_N14</source>
+      <target>n2_N15</target>
+      <demandValue>25.0</demandValue>
+    </demand>
+    <demand id="n2_D21">
+      <source>n2_N2</source>
+      <target>n2_N7</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n2_D211">
+      <source>n2_N15</source>
+      <target>n2_N1</target>
+      <demandValue>16.0</demandValue>
+    </demand>
+    <demand id="n2_D212">
+      <source>n2_N15</source>
+      <target>n2_N2</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n2_D215">
+      <source>n2_N15</source>
+      <target>n2_N5</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D216">
+      <source>n2_N15</source>
+      <target>n2_N6</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D217">
+      <source>n2_N15</source>
+      <target>n2_N7</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D222">
+      <source>n2_N15</source>
+      <target>n2_N12</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D223">
+      <source>n2_N15</source>
+      <target>n2_N13</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n2_D224">
+      <source>n2_N15</source>
+      <target>n2_N14</target>
+      <demandValue>25.0</demandValue>
+    </demand>
+    <demand id="n2_D26">
+      <source>n2_N2</source>
+      <target>n2_N12</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n2_D27">
+      <source>n2_N2</source>
+      <target>n2_N13</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D28">
+      <source>n2_N2</source>
+      <target>n2_N14</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n2_D29">
+      <source>n2_N2</source>
+      <target>n2_N15</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n2_D4">
+      <source>n2_N1</source>
+      <target>n2_N5</target>
+      <demandValue>20.0</demandValue>
+    </demand>
+    <demand id="n2_D5">
+      <source>n2_N1</source>
+      <target>n2_N6</target>
+      <demandValue>20.0</demandValue>
+    </demand>
+    <demand id="n2_D6">
+      <source>n2_N1</source>
+      <target>n2_N7</target>
+      <demandValue>20.0</demandValue>
+    </demand>
+    <demand id="n2_D61">
+      <source>n2_N5</source>
+      <target>n2_N1</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D62">
+      <source>n2_N5</source>
+      <target>n2_N2</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n2_D65">
+      <source>n2_N5</source>
+      <target>n2_N6</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n2_D66">
+      <source>n2_N5</source>
+      <target>n2_N7</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n2_D71">
+      <source>n2_N5</source>
+      <target>n2_N12</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D72">
+      <source>n2_N5</source>
+      <target>n2_N13</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D73">
+      <source>n2_N5</source>
+      <target>n2_N14</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D74">
+      <source>n2_N5</source>
+      <target>n2_N15</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D76">
+      <source>n2_N6</source>
+      <target>n2_N1</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D77">
+      <source>n2_N6</source>
+      <target>n2_N2</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n2_D80">
+      <source>n2_N6</source>
+      <target>n2_N5</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n2_D81">
+      <source>n2_N6</source>
+      <target>n2_N7</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n2_D86">
+      <source>n2_N6</source>
+      <target>n2_N12</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D87">
+      <source>n2_N6</source>
+      <target>n2_N13</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n2_D88">
+      <source>n2_N6</source>
+      <target>n2_N14</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D89">
+      <source>n2_N6</source>
+      <target>n2_N15</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n2_D91">
+      <source>n2_N7</source>
+      <target>n2_N1</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n2_D92">
+      <source>n2_N7</source>
+      <target>n2_N2</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n2_D95">
+      <source>n2_N7</source>
+      <target>n2_N5</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n2_D96">
+      <source>n2_N7</source>
+      <target>n2_N6</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+  </demands>
+</network>

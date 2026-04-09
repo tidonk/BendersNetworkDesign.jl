@@ -1,0 +1,315 @@
+[SOLVER]
+    SOLVER = "Gurobi"  # Only Gurobi is supported
+    time_limit = 10800  # Time limit in seconds (3 hours)
+
+[MODEL]
+    # Model type to use
+    # Options: "compact", "benders"
+    model_type = "benders"
+
+[SCENARIOS]
+    # Number of outage scenarios to sample (excluding base case)
+    # Use 1 for testing: master problem (base flow) + 1 subproblem (one outage)
+    # Use -1 for all valid scenarios
+    num_outage_scenarios = -1
+
+    # Random seed for outage scenario sampling (for reproducibility)
+    # Set to nothing for random sampling
+    outage_sampling_seed = 42
+    
+    # N-k contingency level: number of simultaneous component failures
+    # k=1: Single link failures (default, most common)
+    # k=2: Simultaneous failure of 2 links (quadratic growth in scenarios)
+    # k>=3: Higher-order contingencies (computationally expensive, combinatorial explosion)
+    # Warning: Number of scenarios grows as C(n,k). For large networks, use sampling.
+    contingency_k = 1
+
+# ==============================================================================
+# BENDERS DECOMPOSITION: THREE-COMPONENT METHODOLOGY
+# ==============================================================================
+# Our adaptive Benders framework separates three distinct concerns:
+#   1. SUBPROBLEM SCORING: How to rank/prioritize scenarios
+#   2. SUBPROBLEM SELECTION: When to stop solving scenarios in an iteration
+#   3. CUT FILTERING: Which cuts to add after solving scenarios
+# ==============================================================================
+
+[BENDERS.SUBPROBLEM_SCORING]
+    # -----------------------------------------------------------------------------
+    # Determines the ORDER in which subproblems are solved within each iteration
+    # -----------------------------------------------------------------------------
+    
+    # Ordering strategy
+    # Options: "none", "score", "random"
+    # - "none": Original order (e.g., by scenario ID)
+    # - "score": Order by multi-criteria score (violation, reliability, etc.)
+    # - "random": Shuffle scenarios each iteration
+    ordering = "score"
+
+    [BENDERS.SUBPROBLEM_SCORING.none]
+        # No parameters needed - uses original scenario order
+
+    [BENDERS.SUBPROBLEM_SCORING.score]
+        # Multi-criteria scoring weights
+        # Components: [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+        # - violation (r_v): Average violation magnitude when cut was added
+        # - reliability (r_r): Fraction of times scenario generated a cut (before filtering)
+        # - reliability_filtered (r_rf): Fraction of times scenario's cut passed filtering and was added
+        # - total_share (r_t): Fraction of all cuts produced by this scenario
+        # - stabilization (r_z): Rounds since last solved (staleness)
+        # - ml_prediction (r_ml): ML-predicted probability that scenario will yield a cut
+        # Default: [0.05, 0.0, 0.8, 0.05, 0.1, 0.0] - prioritize filtered reliability, no ML yet
+        weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+        
+        # Scale scores to [0,1] range using min-max scaling
+        # When true: scaled_score = (raw_score - min) / (max - min)
+        # When false: scaled_score = raw_score (no scaling)
+        # Set to false when using only one score component to preserve absolute values
+        scale_score = true
+
+    [BENDERS.SUBPROBLEM_SCORING.random]
+        # Random seed for shuffling (set to nothing for non-deterministic)
+        seed = 42
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    # -----------------------------------------------------------------------------
+    # Determines WHEN TO STOP solving subproblems within each iteration
+    # Multiple stopping criteria can be active simultaneously
+    # -----------------------------------------------------------------------------
+    
+    # Strategy type
+    # Options: "none", "static", "adaptive"
+    # - "none": Always solve all subproblems (no early stopping)
+    # - "static": Fixed limits (consecutive misses, score threshold, time, cut count)
+    # - "adaptive": Dynamic adjustment based on progress
+    strategy = "static"
+    
+    # --- Score Initialization ---
+    # In the first iteration, solve all scenarios to initialize scores
+    # This provides an unbiased initial ranking before applying selection strategies
+    # Applies to all selection strategies except "none"
+    score_initialization_enabled = true
+    
+    # --- Stabilization Rounds ---
+    # Periodically solve ALL scenarios and reset scores to prevent bias accumulation
+    # Applies to all selection strategies
+    
+    # Frequency: Every N iterations, perform full solve with score reset
+    # Use 0 to disable stabilization rounds
+    stabilization_frequency = 200
+    
+    # Root node stabilization: Max Benders iterations to solve all scenarios at root node
+    # This ensures strong initial cuts before branching begins
+    # 0 = disabled (use normal selection strategy at root)
+    # N > 0 = force full solve for first N iterations at root node
+    # -1 = unlimited (always solve all scenarios while at root node)
+    root_node_stabilization = 0
+    
+    [BENDERS.SUBPROBLEM_SELECTION.none]
+        # No parameters needed - always solves all subproblems
+    
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        # --- Stopping Criteria ---
+        # These must be defined BEFORE nested tables due to TOML parsing rules
+        
+        # Minimum score threshold - stop when next scenario score falls below this
+        # Use -1.0 to disable
+        min_score_threshold = 0.7
+        
+        # Maximum time (seconds) per iteration for solving subproblems
+        # Use -1.0 to disable
+        iteration_time_limit = -1.0
+        
+        # --- Cut Limit ---
+        # Controls maximum cuts to add per iteration
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            # Limit mode: "absolute" or "relative"
+            # - "absolute": Fixed number of cuts
+            # - "relative": Fraction of total scenarios (e.g., 0.1 = 10% of scenarios)
+            mode = "absolute"
+            
+            # Absolute limit: Maximum cuts per iteration (used when mode = "absolute")
+            # Use -1 for unlimited
+            absolute = -1
+            
+            # Relative limit: Fraction of scenarios (used when mode = "relative")
+            # Example: 0.1 means max_cuts = ceil(0.1 * num_scenarios)
+            # Use -1.0 for unlimited
+            relative = 0.1
+        
+        # --- Solve Limit ---
+        # Controls maximum number of subproblems to solve per iteration
+        # (counts all solved subproblems, regardless of whether they generate cuts)
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.solve_limit]
+            # Limit mode: "absolute" or "relative"
+            # - "absolute": Fixed number of subproblems to solve
+            # - "relative": Fraction of total scenarios (e.g., 0.5 = 50% of scenarios)
+            mode = "absolute"
+            
+            # Absolute limit: Maximum subproblems per iteration (used when mode = "absolute")
+            # Use -1 for unlimited
+            absolute = -1
+            
+            # Relative limit: Fraction of scenarios (used when mode = "relative")
+            # Example: 0.5 means max_solves = ceil(0.5 * num_scenarios)
+            # Use -1.0 for unlimited
+            relative = 0.5
+        
+        # --- Consecutive Miss Limit ---
+        # Stop after N consecutive scenarios without finding a cut
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.consecutive_miss]
+            # Limit mode: "absolute" or "relative"
+            # - "absolute": Fixed number of consecutive misses
+            # - "relative": Fraction of total scenarios
+            mode = "relative"
+            
+            # Absolute limit: Max consecutive scenarios without cuts
+            # Use -1 to disable
+            absolute = -1
+            
+            # Relative limit: Fraction of scenarios
+            # Example: 0.5 means stop after missing ceil(0.5 * num_scenarios) consecutive scenarios
+            # Use -1.0 to disable
+            relative = -1
+
+    [BENDERS.SUBPROBLEM_SELECTION.adaptive]
+        # Adaptive cut limit strategy adjusts the number of cuts based on solution progress
+        # Three adaptation mechanisms available (only one active at a time):
+        # 1. phase_based: Adjust based on optimality gap thresholds
+        # 2. progress_based: Adjust based on gap improvement rate
+        # 3. time_balance: Adjust based on master vs subproblem time ratio
+        
+        # Adaptation mode - determines which mechanism to use
+        # Options: "phase_based", "progress_based", "time_balance"
+        mode = "phase_based"
+        
+        [BENDERS.SUBPROBLEM_SELECTION.adaptive.phase_based]
+            # Gap-threshold based adaptation
+            # Adjusts cut limit based on which phase of optimization we're in
+            
+            # Gap thresholds defining phases (as fractions, e.g., 0.20 = 20%)
+            # Early phase: gap > large_gap_threshold
+            # Middle phase: medium_gap_threshold < gap <= large_gap_threshold  
+            # Late phase: gap <= medium_gap_threshold
+            large_gap_threshold = 0.10   # Above this: early phase (exploration)
+            medium_gap_threshold = 0.01  # Below this: late phase (refinement)
+            
+            # Cut limits for each phase
+            early_phase_cuts = 100     # Few cuts when gap is large (> 20%)
+            middle_phase_cuts = 10    # Moderate cuts in middle phase (5-20%)
+            late_phase_cuts = 5     # Many cuts when gap is small (< 5%)
+        
+        [BENDERS.SUBPROBLEM_SELECTION.adaptive.progress_based]
+            # Dual bound improvement based adaptation
+            # Adjusts cut limit based on whether the dual bound is improving
+            
+            # Base number of cuts (starting point)
+            base_cuts = 5
+            
+            # Cut limit bounds
+            min_cuts = 1
+            max_cuts = 100
+            
+            # Adaptation factor for adjustments (deprecated, kept for compatibility)
+            adaptation_factor = 1.05
+            
+            # Improvement thresholds (deprecated, kept for compatibility)
+            low_improvement_threshold = 0.005
+            high_improvement_threshold = 0.02
+            
+            # Consecutive low improvement rounds before increasing cuts
+            stagnation_rounds = 3
+            
+            # Movement factor: applied when dual bound improves (reduces cuts)
+            movement_factor = 0.5
+            
+            # Stagnation factor: applied when dual bound stalls (increases cuts slowly)
+            stagnation_factor = 1.05
+        
+        [BENDERS.SUBPROBLEM_SELECTION.adaptive.time_balance]
+            # Time-ratio based adaptation
+            # Adjusts cut limit to balance master vs subproblem solve times
+            
+            # Base number of cuts (starting point)
+            base_cuts = 5
+            
+            # Cut limit bounds
+            min_cuts = 1
+            max_cuts = 50
+            
+            # Time ratio thresholds (master_time / subproblem_time)
+            # High ratio (> master_dominated): master is bottleneck → decrease cuts
+            # Low ratio (< subproblem_dominated): subproblems are bottleneck → increase cuts
+            master_dominated_threshold = 2.0    # master taking > 2x subproblem time
+            subproblem_dominated_threshold = 0.5  # subproblems taking > 2x master time
+            
+            # Adjustment factors
+            decrease_factor = 0.8  # Multiply by this when decreasing
+            increase_factor = 1.2  # Multiply by this when increasing
+
+[BENDERS.CUT_FILTERING]
+    # -----------------------------------------------------------------------------
+    # Determines WHICH CUTS TO ADD after solving multiple subproblems
+    # Decouples subproblem solving from cut addition
+    # -----------------------------------------------------------------------------
+    
+    # Filtering strategy
+    # Options: "none", "strongest_k", "efficacy", "diversity", "hybrid"
+    # - "none": Add all cuts from solved subproblems (current implementation)
+    # - "strongest_k": Add k cuts with highest violation (not yet implemented)
+    # - "efficacy": Rank by violation/norm ratio (not yet implemented)
+    # - "diversity": Select geometrically diverse cuts (not yet implemented)
+    # - "hybrid": Weighted combination of criteria (not yet implemented)
+    strategy = "diversity"
+    
+    # Maximum cuts to add (used by filtering strategies)
+    # Different from selection.max_cuts_per_iteration:
+    # - selection limit: stops SOLVING subproblems
+    # - filtering limit: stops ADDING cuts after solving
+    max_cuts = 5
+    
+    # Filtering-specific parameters (used when strategy != "none")
+    efficacy_norm = "l2"  # Options: "l1", "l2", "linf"
+    diversity_threshold = 0.2  # Minimum Jaccard distance for diversity filtering
+    hybrid_weights = [0.5, 0.3, 0.2]  # [violation, efficacy, diversity]
+
+[BENDERS.DEBUG]
+    # Debugging and validation options
+    
+    # Validate that cuts are actually violated before adding
+    # When true, prints warning if cut is not violated by current solution
+    validate_cuts = false
+
+# ==============================================================================
+# ML MODEL PERSISTENCE
+# ==============================================================================
+[BENDERS.ML]
+    # Export trained ML model after solving to check/models/trained_model_INSTANCENAME.jls
+    # Set to false to disable export
+    model_write = false
+    
+    # Import pre-trained ML model from check/models/trained_model_INSTANCENAME.jls
+    # Set to false to train new model from scratch
+    model_read = false
+
+[LOGGING]
+    # Print timing summary after solving
+    statistics = true
+    
+    # Print ML model performance summary and predictions by confidence
+    ml_statistics = true
+    
+    # Print detailed information for each subproblem solved
+    # Shows: Iter | Scenario | Score | Time | Cut
+    # Includes summary after each iteration
+    subproblem_log = false
+    
+    # When subproblem_log=true, only print subproblems that produce cuts
+    # If false, prints all subproblems solved
+    subproblem_log_success = false
+    
+    # Print detailed solution (installed modules) after solving
+    # If false, only print objective value and status
+    print_solution = false

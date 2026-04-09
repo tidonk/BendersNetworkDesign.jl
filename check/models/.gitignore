@@ -1,0 +1,5 @@
+# Ignore all trained ML models
+*.jls
+
+# But track this directory
+!.gitignore

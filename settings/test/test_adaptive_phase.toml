@@ -1,0 +1,18 @@
+# Test configuration for phase-based adaptive mechanism only
+# Disables progress-based and time-balance mechanisms
+# Tests gap-threshold adaptation: min_cuts when gap > 20%, max_cuts when gap < 5%
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "adaptive"
+    
+    [BENDERS.SUBPROBLEM_SELECTION.adaptive]
+        # Enable only phase-based adaptation
+        use_phase_based = true
+        use_progress_based = false
+        use_time_balance = false
+        
+        # Adaptive parameters
+        base_cuts = 5     # Middle phase: 5% < gap < 20%
+        min_cuts = 3      # Early phase: gap > 20%
+        max_cuts = 50     # Late phase: gap < 5%
+        adaptation_factor = 1.5

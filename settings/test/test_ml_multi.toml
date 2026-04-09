@@ -1,0 +1,71 @@
+# Test settings for multi-regressor ML mode
+# Uses Abilene network with ML-based subproblem selection
+
+[SOLVER]
+    SOLVER = "Gurobi"
+    time_limit = 3600
+
+[MODEL]
+    model_type = "benders"
+
+[SCENARIOS]
+    num_outage_scenarios = -1
+    outage_sampling_seed = 42
+    contingency_k = 1
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+    
+    [BENDERS.SUBPROBLEM_SCORING.score]
+        weights = [0.0, 0.0, 0.0, 0.0, 0.0, 1.0]  # ML-only
+        scale_score = true
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+    score_initialization_enabled = true
+    stabilization_frequency = 0  # Disable for testing
+    root_node_stabilization = 0
+    
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        min_score_threshold = -1.0
+        iteration_time_limit = -1.0
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            mode = "absolute"
+            absolute = 5
+            relative = 0.1
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.solve_limit]
+            mode = "absolute"
+            absolute = 20
+            relative = 0.2
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.consecutive_miss]
+            mode = "absolute"
+            absolute = 5
+            relative = 0.1
+
+[BENDERS.CUT_FILTERING]
+    strategy = "diversity"
+    max_cuts = 5
+    efficacy_norm = "l2"
+    diversity_threshold = 0.2
+    hybrid_weights = [0.5, 0.3, 0.2]
+
+[BENDERS.ML]
+    mode = "multi"  # Use multi-regressor mode
+    khop_distance = 2
+    learning_rate = 0.02
+    regularization = 0.001
+    model_write = false
+    model_read = false
+
+[LOGGING]
+    statistics = true
+    ml_statistics = true
+    subproblem_log = false
+    subproblem_log_success = false
+    print_solution = false
+
+[BENDERS.DEBUG]
+    validate_cuts = false

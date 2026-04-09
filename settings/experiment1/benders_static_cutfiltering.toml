@@ -1,0 +1,11 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "diversity"

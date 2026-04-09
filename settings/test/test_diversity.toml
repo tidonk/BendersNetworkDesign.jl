@@ -1,0 +1,50 @@
+# Test configuration for diversity-based cut filtering
+
+[SOLVER]
+    SOLVER = "Gurobi"
+    time_limit = 300
+
+[MODEL]
+    model_type = "benders"
+
+[SCENARIOS]
+    num_outage_scenarios = -1
+    outage_sampling_seed = 42
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+    
+    [BENDERS.SUBPROBLEM_SCORING.score]
+        weights = [0.05, 0.0, 0.8, 0.05, 0.01, 0.0]  # [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+    score_initialization_enabled = true
+    stabilization_frequency = 10
+    
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        min_score_threshold = -1.0
+        iteration_time_limit = -1.0
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            mode = "absolute"
+            absolute = -1  # Solve all, then filter
+            relative = 1.0
+        
+        [BENDERS.SUBPROBLEM_SELECTION.static.consecutive_miss]
+            mode = "absolute"
+            absolute = -1
+            relative = 1.0
+
+[BENDERS.CUT_FILTERING]
+    # Test diversity filtering: solve all scenarios, then select k most diverse cuts
+    strategy = "diversity"
+    max_cuts = 5
+    diversity_threshold = 0.3  # Minimum Jaccard distance
+    efficacy_norm = "l2"
+    hybrid_weights = [0.5, 0.3, 0.2]
+
+[BENDERS.DEBUG]
+    validate_cuts = false
+    subproblem_verbose = true
+    subproblem_verbose_cuts_only = false

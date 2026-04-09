@@ -1,0 +1,4217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network xmlns="http://sndlib.zib.de/network" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sndlib.zib.de/network http://sndlib.zib.de/sndlib/network/network.xsd">
+  <networkStructure>
+    <nodes>
+      <node id="n1_Berlin">
+        <coordinates>
+          <x>13.2944</x>
+          <y>52.4558</y>
+        </coordinates>
+      </node>
+      <node id="n1_Erlangen">
+        <coordinates>
+          <x>11.0262</x>
+          <y>49.5737</y>
+        </coordinates>
+      </node>
+      <node id="n1_Frankfurt">
+        <coordinates>
+          <x>8.72819</x>
+          <y>50.1172</y>
+        </coordinates>
+      </node>
+      <node id="n1_Hamburg">
+        <coordinates>
+          <x>9.98792</x>
+          <y>53.5624</y>
+        </coordinates>
+      </node>
+      <node id="n1_Hannover">
+        <coordinates>
+          <x>9.72435</x>
+          <y>52.3798</y>
+        </coordinates>
+      </node>
+      <node id="n2_N03">
+        <coordinates>
+          <x>269.0</x>
+          <y>20.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N08">
+        <coordinates>
+          <x>397.0</x>
+          <y>131.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N09">
+        <coordinates>
+          <x>482.0</x>
+          <y>137.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N11">
+        <coordinates>
+          <x>41.0</x>
+          <y>249.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N13">
+        <coordinates>
+          <x>381.0</x>
+          <y>250.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N14">
+        <coordinates>
+          <x>378.0</x>
+          <y>297.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N15">
+        <coordinates>
+          <x>257.0</x>
+          <y>303.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N16">
+        <coordinates>
+          <x>184.0</x>
+          <y>248.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N18">
+        <coordinates>
+          <x>59.0</x>
+          <y>293.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N20">
+        <coordinates>
+          <x>176.0</x>
+          <y>394.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N21">
+        <coordinates>
+          <x>135.0</x>
+          <y>333.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N22">
+        <coordinates>
+          <x>413.0</x>
+          <y>329.0</y>
+        </coordinates>
+      </node>
+      <node id="n2_N25">
+        <coordinates>
+          <x>235.0</x>
+          <y>188.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_Augsburg">
+        <coordinates>
+          <x>10.9</x>
+          <y>48.33</y>
+        </coordinates>
+      </node>
+      <node id="n3_Bayreuth">
+        <coordinates>
+          <x>11.59</x>
+          <y>49.93</y>
+        </coordinates>
+      </node>
+      <node id="n3_Berlin">
+        <coordinates>
+          <x>13.39</x>
+          <y>52.52</y>
+        </coordinates>
+      </node>
+      <node id="n3_Chemnitz">
+        <coordinates>
+          <x>12.93</x>
+          <y>50.84</y>
+        </coordinates>
+      </node>
+      <node id="n3_Dresden">
+        <coordinates>
+          <x>13.73</x>
+          <y>51.03</y>
+        </coordinates>
+      </node>
+      <node id="n3_Erfurt">
+        <coordinates>
+          <x>11.04</x>
+          <y>50.98</y>
+        </coordinates>
+      </node>
+      <node id="n3_Frankfurt">
+        <coordinates>
+          <x>8.71</x>
+          <y>50.12</y>
+        </coordinates>
+      </node>
+      <node id="n3_Freiburg">
+        <coordinates>
+          <x>7.8</x>
+          <y>47.98</y>
+        </coordinates>
+      </node>
+      <node id="n3_Fulda">
+        <coordinates>
+          <x>9.69</x>
+          <y>50.56</y>
+        </coordinates>
+      </node>
+      <node id="n3_Giessen">
+        <coordinates>
+          <x>8.67</x>
+          <y>50.57</y>
+        </coordinates>
+      </node>
+      <node id="n3_Kaiserslautern">
+        <coordinates>
+          <x>7.75</x>
+          <y>49.43</y>
+        </coordinates>
+      </node>
+      <node id="n3_Karlsruhe">
+        <coordinates>
+          <x>8.41</x>
+          <y>49.01</y>
+        </coordinates>
+      </node>
+      <node id="n3_Kassel">
+        <coordinates>
+          <x>9.51</x>
+          <y>51.32</y>
+        </coordinates>
+      </node>
+      <node id="n3_Kempten">
+        <coordinates>
+          <x>10.32</x>
+          <y>47.72</y>
+        </coordinates>
+      </node>
+      <node id="n3_Konstanz">
+        <coordinates>
+          <x>9.18</x>
+          <y>47.66</y>
+        </coordinates>
+      </node>
+      <node id="n3_Leipzig">
+        <coordinates>
+          <x>12.38</x>
+          <y>51.34</y>
+        </coordinates>
+      </node>
+      <node id="n3_Magdeburg">
+        <coordinates>
+          <x>11.64</x>
+          <y>52.14</y>
+        </coordinates>
+      </node>
+      <node id="n3_Mannheim">
+        <coordinates>
+          <x>8.49</x>
+          <y>49.49</y>
+        </coordinates>
+      </node>
+      <node id="n3_Muenchen">
+        <coordinates>
+          <x>11.57</x>
+          <y>48.15</y>
+        </coordinates>
+      </node>
+      <node id="n3_Nuernberg">
+        <coordinates>
+          <x>11.03</x>
+          <y>49.57</y>
+        </coordinates>
+      </node>
+      <node id="n3_Passau">
+        <coordinates>
+          <x>13.46</x>
+          <y>48.57</y>
+        </coordinates>
+      </node>
+      <node id="n3_Regensburg">
+        <coordinates>
+          <x>12.09</x>
+          <y>49.0</y>
+        </coordinates>
+      </node>
+      <node id="n3_Saarbruecken">
+        <coordinates>
+          <x>7.03</x>
+          <y>49.23</y>
+        </coordinates>
+      </node>
+      <node id="n3_Stuttgart">
+        <coordinates>
+          <x>9.1</x>
+          <y>48.74</y>
+        </coordinates>
+      </node>
+      <node id="n3_Ulm">
+        <coordinates>
+          <x>9.99</x>
+          <y>48.4</y>
+        </coordinates>
+      </node>
+      <node id="n3_Wuerzburg">
+        <coordinates>
+          <x>9.97</x>
+          <y>49.78</y>
+        </coordinates>
+      </node>
+      <node id="n4_Ann-Arbor">
+        <coordinates>
+          <x>-83.43</x>
+          <y>42.16</y>
+        </coordinates>
+      </node>
+      <node id="n4_Houston">
+        <coordinates>
+          <x>-95.21</x>
+          <y>29.45</y>
+        </coordinates>
+      </node>
+      <node id="n4_Ithaca">
+        <coordinates>
+          <x>-76.3</x>
+          <y>42.26</y>
+        </coordinates>
+      </node>
+      <node id="n4_Pittsburgh">
+        <coordinates>
+          <x>-79.58</x>
+          <y>40.26</y>
+        </coordinates>
+      </node>
+      <node id="n4_Princeton">
+        <coordinates>
+          <x>-74.39</x>
+          <y>40.21</y>
+        </coordinates>
+      </node>
+      <node id="n4_Salt-Lake-City">
+        <coordinates>
+          <x>-111.55</x>
+          <y>40.39</y>
+        </coordinates>
+      </node>
+      <node id="n4_Washington">
+        <coordinates>
+          <x>-77.02</x>
+          <y>38.52</y>
+        </coordinates>
+      </node>
+    </nodes>
+    <links>
+      <link id="inter_n1_Frankfurt_n2_N16">
+        <source>n1_Frankfurt</source>
+        <target>n2_N16</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_Hamburg_n2_N09">
+        <source>n1_Hamburg</source>
+        <target>n2_N09</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n1_Hannover_n2_N15">
+        <source>n1_Hannover</source>
+        <target>n2_N15</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N09_n1_Hamburg">
+        <source>n2_N09</source>
+        <target>n1_Hamburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N09_n3_Karlsruhe">
+        <source>n2_N09</source>
+        <target>n3_Karlsruhe</target>
+        <setupCost>578.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N09_n4_Princeton">
+        <source>n2_N09</source>
+        <target>n4_Princeton</target>
+        <setupCost>125.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N15_n1_Hannover">
+        <source>n2_N15</source>
+        <target>n1_Hannover</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N15_n3_Muenchen">
+        <source>n2_N15</source>
+        <target>n3_Muenchen</target>
+        <setupCost>578.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N15_n4_Ann-Arbor">
+        <source>n2_N15</source>
+        <target>n4_Ann-Arbor</target>
+        <setupCost>125.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n2_N16_n1_Frankfurt">
+        <source>n2_N16</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n3_Karlsruhe_n2_N09">
+        <source>n3_Karlsruhe</source>
+        <target>n2_N09</target>
+        <setupCost>578.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n3_Muenchen_n2_N15">
+        <source>n3_Muenchen</source>
+        <target>n2_N15</target>
+        <setupCost>578.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n4_Ann-Arbor_n2_N15">
+        <source>n4_Ann-Arbor</source>
+        <target>n2_N15</target>
+        <setupCost>125.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="inter_n4_Princeton_n2_N09">
+        <source>n4_Princeton</source>
+        <target>n2_N09</target>
+        <setupCost>125.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Berlin_Erlangen">
+        <source>n1_Erlangen</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>183.20000000000002</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>549.6</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Berlin_Frankfurt">
+        <source>n1_Berlin</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>204.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>613.2</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Berlin_Hamburg">
+        <source>n1_Hamburg</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>141.6</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>424.8</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Berlin_Hannover">
+        <source>n1_Hannover</source>
+        <target>n1_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>137.20000000000002</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>411.6</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Erlangen_Frankfurt">
+        <source>n1_Erlangen</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>110.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>331.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Erlangen_Hamburg">
+        <source>n1_Hamburg</source>
+        <target>n1_Erlangen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>220.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>660.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Erlangen_Hannover">
+        <source>n1_Hannover</source>
+        <target>n1_Erlangen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>170.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>510.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Frankfurt_Hamburg">
+        <source>n1_Hamburg</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>197.20000000000002</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>591.6</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Frankfurt_Hannover">
+        <source>n1_Hannover</source>
+        <target>n1_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>144.4</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>433.20000000000005</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n1_Hamburg_Hannover">
+        <source>n1_Hamburg</source>
+        <target>n1_Hannover</target>
+        <additionalModules>
+          <addModule>
+            <capacity>155.0</capacity>
+            <cost>93.2</cost>
+          </addModule>
+          <addModule>
+            <capacity>622.0</capacity>
+            <cost>279.6</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN03_N09">
+        <source>n2_N03</source>
+        <target>n2_N09</target>
+        <setupCost>414.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN08_N09">
+        <source>n2_N08</source>
+        <target>n2_N09</target>
+        <setupCost>115.4</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN13_N14">
+        <source>n2_N13</source>
+        <target>n2_N14</target>
+        <setupCost>50.2</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N09">
+        <source>n2_N15</source>
+        <target>n2_N09</target>
+        <setupCost>578.5</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N11">
+        <source>n2_N15</source>
+        <target>n2_N11</target>
+        <setupCost>962.8000000000001</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N13">
+        <source>n2_N15</source>
+        <target>n2_N13</target>
+        <setupCost>103.10000000000001</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N14">
+        <source>n2_N15</source>
+        <target>n2_N14</target>
+        <setupCost>82.9</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N16">
+        <source>n2_N15</source>
+        <target>n2_N16</target>
+        <setupCost>10.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N18">
+        <source>n2_N15</source>
+        <target>n2_N18</target>
+        <setupCost>40.300000000000004</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N20">
+        <source>n2_N15</source>
+        <target>n2_N20</target>
+        <setupCost>46.800000000000004</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N21">
+        <source>n2_N15</source>
+        <target>n2_N21</target>
+        <setupCost>136.8</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N22">
+        <source>n2_N15</source>
+        <target>n2_N22</target>
+        <setupCost>32.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN15_N25">
+        <source>n2_N15</source>
+        <target>n2_N25</target>
+        <setupCost>696.2</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN16_N09">
+        <source>n2_N16</source>
+        <target>n2_N09</target>
+        <setupCost>957.6</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN16_N11">
+        <source>n2_N16</source>
+        <target>n2_N11</target>
+        <setupCost>125.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN20_N21">
+        <source>n2_N20</source>
+        <target>n2_N21</target>
+        <setupCost>90.10000000000001</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN22_N09">
+        <source>n2_N22</source>
+        <target>n2_N09</target>
+        <setupCost>557.2</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN22_N20">
+        <source>n2_N22</source>
+        <target>n2_N20</target>
+        <setupCost>62.900000000000006</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN25_N03">
+        <source>n2_N25</source>
+        <target>n2_N03</target>
+        <setupCost>310.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n2_LinkN25_N09">
+        <source>n2_N25</source>
+        <target>n2_N09</target>
+        <setupCost>120.0</setupCost>
+        <additionalModules>
+          <addModule>
+            <capacity>2500.0</capacity>
+            <cost>20.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L22">
+        <source>n3_Leipzig</source>
+        <target>n3_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L23">
+        <source>n3_Dresden</source>
+        <target>n3_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L25">
+        <source>n3_Magdeburg</source>
+        <target>n3_Berlin</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L27">
+        <source>n3_Dresden</source>
+        <target>n3_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L28">
+        <source>n3_Erfurt</source>
+        <target>n3_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L29">
+        <source>n3_Magdeburg</source>
+        <target>n3_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L30">
+        <source>n3_Bayreuth</source>
+        <target>n3_Leipzig</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L31">
+        <source>n3_Erfurt</source>
+        <target>n3_Dresden</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L32">
+        <source>n3_Chemnitz</source>
+        <target>n3_Dresden</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L33">
+        <source>n3_Chemnitz</source>
+        <target>n3_Erfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L34">
+        <source>n3_Kassel</source>
+        <target>n3_Erfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L35">
+        <source>n3_Wuerzburg</source>
+        <target>n3_Erfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L36">
+        <source>n3_Bayreuth</source>
+        <target>n3_Chemnitz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L57">
+        <source>n3_Giessen</source>
+        <target>n3_Kassel</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L58">
+        <source>n3_Fulda</source>
+        <target>n3_Kassel</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L60">
+        <source>n3_Giessen</source>
+        <target>n3_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L61">
+        <source>n3_Fulda</source>
+        <target>n3_Frankfurt</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L64">
+        <source>n3_Karlsruhe</source>
+        <target>n3_Mannheim</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L65">
+        <source>n3_Saarbruecken</source>
+        <target>n3_Kaiserslautern</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L66">
+        <source>n3_Karlsruhe</source>
+        <target>n3_Kaiserslautern</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L67">
+        <source>n3_Fulda</source>
+        <target>n3_Giessen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L69">
+        <source>n3_Wuerzburg</source>
+        <target>n3_Fulda</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L70">
+        <source>n3_Karlsruhe</source>
+        <target>n3_Saarbruecken</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L71">
+        <source>n3_Karlsruhe</source>
+        <target>n3_Stuttgart</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L72">
+        <source>n3_Ulm</source>
+        <target>n3_Stuttgart</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L73">
+        <source>n3_Konstanz</source>
+        <target>n3_Stuttgart</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L74">
+        <source>n3_Wuerzburg</source>
+        <target>n3_Stuttgart</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L75">
+        <source>n3_Freiburg</source>
+        <target>n3_Karlsruhe</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L76">
+        <source>n3_Augsburg</source>
+        <target>n3_Ulm</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L77">
+        <source>n3_Freiburg</source>
+        <target>n3_Konstanz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L78">
+        <source>n3_Kempten</source>
+        <target>n3_Konstanz</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L79">
+        <source>n3_Augsburg</source>
+        <target>n3_Muenchen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L80">
+        <source>n3_Kempten</source>
+        <target>n3_Muenchen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L81">
+        <source>n3_Passau</source>
+        <target>n3_Muenchen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L82">
+        <source>n3_Nuernberg</source>
+        <target>n3_Muenchen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L83">
+        <source>n3_Regensburg</source>
+        <target>n3_Muenchen</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L84">
+        <source>n3_Wuerzburg</source>
+        <target>n3_Augsburg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>415.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L85">
+        <source>n3_Regensburg</source>
+        <target>n3_Passau</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L86">
+        <source>n3_Bayreuth</source>
+        <target>n3_Nuernberg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>329.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L87">
+        <source>n3_Wuerzburg</source>
+        <target>n3_Nuernberg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n3_L88">
+        <source>n3_Regensburg</source>
+        <target>n3_Nuernberg</target>
+        <additionalModules>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>372.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L10">
+        <source>n4_Washington</source>
+        <target>n4_Ithaca</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>444.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>544.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>988.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>1088.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>1532.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>1632.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>2076.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>2176.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>2620.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>2720.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>3164.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>3264.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>3708.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>3808.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>4252.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>4352.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>4796.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>4896.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>5340.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>5440.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>5884.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>5984.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>6428.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>6528.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>6972.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>7072.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>7516.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>7616.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>8060.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>8160.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>8604.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>8704.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>9148.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>9248.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>9692.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>9792.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>10236.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>10336.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>10780.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>10880.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L11">
+        <source>n4_Washington</source>
+        <target>n4_Houston</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>1476.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1576.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>3052.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>3152.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>4628.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>4728.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>6204.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>6304.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>7780.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>7880.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>9356.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>9456.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>10932.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>11032.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>12508.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>12608.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>14084.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>14184.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>15660.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>15760.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>17236.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>17336.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>18812.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>18912.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>20388.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>20488.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>21964.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>22064.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>23540.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>23640.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>25116.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>25216.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>26692.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>26792.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>28268.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>28368.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>29844.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>29944.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>31420.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>31520.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L17">
+        <source>n4_Ann-Arbor</source>
+        <target>n4_Princeton</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>702.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>802.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>1504.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>1604.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>2306.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>2406.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>3108.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>3208.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>3910.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>4010.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>4712.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>4812.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>5514.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>5614.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>6316.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>6416.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>7118.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>7218.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>7920.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>8020.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>8722.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>8822.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>9524.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>9624.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>10326.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>10426.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>11128.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>11228.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>11930.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>12030.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>12732.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>12832.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>13534.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>13634.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>14336.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>14436.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>15138.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>15238.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>15940.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>16040.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L18">
+        <source>n4_Ann-Arbor</source>
+        <target>n4_Ithaca</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>616.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>716.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>1332.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>1432.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>2048.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>2148.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>2764.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>2864.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>3480.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>3580.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>4196.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>4296.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>4912.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>5012.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>5628.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>5728.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>6344.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>6444.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>7060.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>7160.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>7776.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>7876.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>8492.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>8592.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>9208.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>9308.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>9924.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>10024.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>10640.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>10740.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>11356.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>11456.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>12072.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>12172.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>12788.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>12888.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>13504.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>13604.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>14220.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>14320.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L19">
+        <source>n4_Ann-Arbor</source>
+        <target>n4_Salt-Lake-City</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>1734.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>1834.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>3568.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>3668.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>5402.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>5502.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>7236.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>7336.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>9070.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>9170.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>10904.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>11004.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>12738.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>12838.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>14572.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>14672.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>16406.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>16506.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>18240.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>18340.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>20074.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>20174.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>21908.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>22008.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>23742.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>23842.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>25576.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>25676.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>27410.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>27510.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>29244.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>29344.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>31078.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>31178.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>32912.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>33012.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>34746.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>34846.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>36580.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>36680.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L20">
+        <source>n4_Princeton</source>
+        <target>n4_Pittsburgh</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>487.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>587.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>1074.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>1174.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>1661.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>1761.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>2248.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>2348.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>2835.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>2935.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>3422.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>3522.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>4009.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>4109.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>4596.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>4696.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>5183.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>5283.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>5770.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>5870.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>6357.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>6457.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>6944.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>7044.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>7531.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>7631.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>8118.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>8218.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>8705.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>8805.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>9292.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>9392.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>9879.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>9979.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>10466.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>10566.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>11053.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>11153.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>11640.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>11740.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L21">
+        <source>n4_Ithaca</source>
+        <target>n4_Pittsburgh</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>444.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>544.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>988.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>1088.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>1532.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>1632.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>2076.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>2176.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>2620.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>2720.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>3164.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>3264.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>3708.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>3808.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>4252.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>4352.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>4796.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>4896.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>5340.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>5440.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>5884.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>5984.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>6428.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>6528.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>6972.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>7072.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>7516.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>7616.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>8060.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>8160.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>8604.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>8704.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>9148.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>9248.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>9692.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>9792.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>10236.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>10336.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>10780.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>10880.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+      <link id="n4_L9">
+        <source>n4_Washington</source>
+        <target>n4_Princeton</target>
+        <additionalModules>
+          <addModule>
+            <capacity>20.0</capacity>
+            <cost>358.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>40.0</capacity>
+            <cost>458.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>60.0</capacity>
+            <cost>816.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>80.0</capacity>
+            <cost>916.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>100.0</capacity>
+            <cost>1274.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>120.0</capacity>
+            <cost>1374.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>140.0</capacity>
+            <cost>1732.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>160.0</capacity>
+            <cost>1832.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>180.0</capacity>
+            <cost>2190.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>200.0</capacity>
+            <cost>2290.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>220.0</capacity>
+            <cost>2648.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>240.0</capacity>
+            <cost>2748.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>260.0</capacity>
+            <cost>3106.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>280.0</capacity>
+            <cost>3206.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>300.0</capacity>
+            <cost>3564.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>320.0</capacity>
+            <cost>3664.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>340.0</capacity>
+            <cost>4022.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>360.0</capacity>
+            <cost>4122.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>380.0</capacity>
+            <cost>4480.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>400.0</capacity>
+            <cost>4580.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>420.0</capacity>
+            <cost>4938.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>440.0</capacity>
+            <cost>5038.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>460.0</capacity>
+            <cost>5396.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>480.0</capacity>
+            <cost>5496.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>500.0</capacity>
+            <cost>5854.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>520.0</capacity>
+            <cost>5954.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>540.0</capacity>
+            <cost>6312.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>560.0</capacity>
+            <cost>6412.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>580.0</capacity>
+            <cost>6770.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>600.0</capacity>
+            <cost>6870.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>620.0</capacity>
+            <cost>7228.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>640.0</capacity>
+            <cost>7328.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>660.0</capacity>
+            <cost>7686.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>680.0</capacity>
+            <cost>7786.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>700.0</capacity>
+            <cost>8144.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>720.0</capacity>
+            <cost>8244.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>740.0</capacity>
+            <cost>8602.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>760.0</capacity>
+            <cost>8702.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>780.0</capacity>
+            <cost>9060.0</cost>
+          </addModule>
+          <addModule>
+            <capacity>800.0</capacity>
+            <cost>9160.0</cost>
+          </addModule>
+        </additionalModules>
+      </link>
+    </links>
+  </networkStructure>
+  <demands>
+    <demand id="n1_DBerErl">
+      <source>n1_Berlin</source>
+      <target>n1_Erlangen</target>
+      <demandValue>8.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DBerFra">
+      <source>n1_Berlin</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>93.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DBerHam">
+      <source>n1_Berlin</source>
+      <target>n1_Hamburg</target>
+      <demandValue>12.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DBerHan">
+      <source>n1_Berlin</source>
+      <target>n1_Hannover</target>
+      <demandValue>26.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DErlBer">
+      <source>n1_Erlangen</source>
+      <target>n1_Berlin</target>
+      <demandValue>8.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DErlFra">
+      <source>n1_Erlangen</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>29.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DErlHam">
+      <source>n1_Erlangen</source>
+      <target>n1_Hamburg</target>
+      <demandValue>4.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DErlHan">
+      <source>n1_Erlangen</source>
+      <target>n1_Hannover</target>
+      <demandValue>4.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DFraBer">
+      <source>n1_Frankfurt</source>
+      <target>n1_Berlin</target>
+      <demandValue>93.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DFraErl">
+      <source>n1_Frankfurt</source>
+      <target>n1_Erlangen</target>
+      <demandValue>65.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DFraHam">
+      <source>n1_Frankfurt</source>
+      <target>n1_Hamburg</target>
+      <demandValue>92.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DFraHan">
+      <source>n1_Frankfurt</source>
+      <target>n1_Hannover</target>
+      <demandValue>67.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHamBer">
+      <source>n1_Hamburg</source>
+      <target>n1_Berlin</target>
+      <demandValue>12.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHamErl">
+      <source>n1_Hamburg</source>
+      <target>n1_Erlangen</target>
+      <demandValue>21.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHamFra">
+      <source>n1_Hamburg</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>73.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHamHan">
+      <source>n1_Hamburg</source>
+      <target>n1_Hannover</target>
+      <demandValue>10.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHanBer">
+      <source>n1_Hannover</source>
+      <target>n1_Berlin</target>
+      <demandValue>13.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHanErl">
+      <source>n1_Hannover</source>
+      <target>n1_Erlangen</target>
+      <demandValue>13.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHanFra">
+      <source>n1_Hannover</source>
+      <target>n1_Frankfurt</target>
+      <demandValue>55.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n1_DHanHam">
+      <source>n1_Hannover</source>
+      <target>n1_Hamburg</target>
+      <demandValue>10.0</demandValue>
+      <maxPathLength>2</maxPathLength>
+    </demand>
+    <demand id="n2_DemN03_N11">
+      <source>n2_N03</source>
+      <target>n2_N11</target>
+      <demandValue>155.0</demandValue>
+    </demand>
+    <demand id="n2_DemN03_N16">
+      <source>n2_N03</source>
+      <target>n2_N16</target>
+      <demandValue>437.0</demandValue>
+    </demand>
+    <demand id="n2_DemN03_N20">
+      <source>n2_N03</source>
+      <target>n2_N20</target>
+      <demandValue>437.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N03">
+      <source>n2_N08</source>
+      <target>n2_N03</target>
+      <demandValue>155.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N09">
+      <source>n2_N08</source>
+      <target>n2_N09</target>
+      <demandValue>408.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N11">
+      <source>n2_N08</source>
+      <target>n2_N11</target>
+      <demandValue>116.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N13">
+      <source>n2_N08</source>
+      <target>n2_N13</target>
+      <demandValue>155.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N14">
+      <source>n2_N08</source>
+      <target>n2_N14</target>
+      <demandValue>77.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N15">
+      <source>n2_N08</source>
+      <target>n2_N15</target>
+      <demandValue>486.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N16">
+      <source>n2_N08</source>
+      <target>n2_N16</target>
+      <demandValue>320.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N20">
+      <source>n2_N08</source>
+      <target>n2_N20</target>
+      <demandValue>320.0</demandValue>
+    </demand>
+    <demand id="n2_DemN08_N22">
+      <source>n2_N08</source>
+      <target>n2_N22</target>
+      <demandValue>447.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N03">
+      <source>n2_N09</source>
+      <target>n2_N03</target>
+      <demandValue>544.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N11">
+      <source>n2_N09</source>
+      <target>n2_N11</target>
+      <demandValue>408.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N13">
+      <source>n2_N09</source>
+      <target>n2_N13</target>
+      <demandValue>544.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N14">
+      <source>n2_N09</source>
+      <target>n2_N14</target>
+      <demandValue>272.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N20">
+      <source>n2_N09</source>
+      <target>n2_N20</target>
+      <demandValue>1098.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N22">
+      <source>n2_N09</source>
+      <target>n2_N22</target>
+      <demandValue>1507.0</demandValue>
+    </demand>
+    <demand id="n2_DemN09_N25">
+      <source>n2_N09</source>
+      <target>n2_N25</target>
+      <demandValue>544.0</demandValue>
+    </demand>
+    <demand id="n2_DemN11_N15">
+      <source>n2_N11</source>
+      <target>n2_N15</target>
+      <demandValue>486.0</demandValue>
+    </demand>
+    <demand id="n2_DemN11_N16">
+      <source>n2_N11</source>
+      <target>n2_N16</target>
+      <demandValue>320.0</demandValue>
+    </demand>
+    <demand id="n2_DemN11_N21">
+      <source>n2_N11</source>
+      <target>n2_N21</target>
+      <demandValue>77.0</demandValue>
+    </demand>
+    <demand id="n2_DemN11_N22">
+      <source>n2_N11</source>
+      <target>n2_N22</target>
+      <demandValue>447.0</demandValue>
+    </demand>
+    <demand id="n2_DemN13_N03">
+      <source>n2_N13</source>
+      <target>n2_N03</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN13_N11">
+      <source>n2_N13</source>
+      <target>n2_N11</target>
+      <demandValue>155.0</demandValue>
+    </demand>
+    <demand id="n2_DemN13_N16">
+      <source>n2_N13</source>
+      <target>n2_N16</target>
+      <demandValue>437.0</demandValue>
+    </demand>
+    <demand id="n2_DemN13_N18">
+      <source>n2_N13</source>
+      <target>n2_N18</target>
+      <demandValue>272.0</demandValue>
+    </demand>
+    <demand id="n2_DemN13_N22">
+      <source>n2_N13</source>
+      <target>n2_N22</target>
+      <demandValue>602.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N03">
+      <source>n2_N14</source>
+      <target>n2_N03</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N11">
+      <source>n2_N14</source>
+      <target>n2_N11</target>
+      <demandValue>77.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N13">
+      <source>n2_N14</source>
+      <target>n2_N13</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N15">
+      <source>n2_N14</source>
+      <target>n2_N15</target>
+      <demandValue>320.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N16">
+      <source>n2_N14</source>
+      <target>n2_N16</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N18">
+      <source>n2_N14</source>
+      <target>n2_N18</target>
+      <demandValue>136.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N20">
+      <source>n2_N14</source>
+      <target>n2_N20</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N21">
+      <source>n2_N14</source>
+      <target>n2_N21</target>
+      <demandValue>48.0</demandValue>
+    </demand>
+    <demand id="n2_DemN14_N25">
+      <source>n2_N14</source>
+      <target>n2_N25</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N03">
+      <source>n2_N15</source>
+      <target>n2_N03</target>
+      <demandValue>651.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N09">
+      <source>n2_N15</source>
+      <target>n2_N09</target>
+      <demandValue>1643.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N13">
+      <source>n2_N15</source>
+      <target>n2_N13</target>
+      <demandValue>651.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N16">
+      <source>n2_N15</source>
+      <target>n2_N16</target>
+      <demandValue>1312.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N18">
+      <source>n2_N15</source>
+      <target>n2_N18</target>
+      <demandValue>816.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N21">
+      <source>n2_N15</source>
+      <target>n2_N21</target>
+      <demandValue>320.0</demandValue>
+    </demand>
+    <demand id="n2_DemN15_N25">
+      <source>n2_N15</source>
+      <target>n2_N25</target>
+      <demandValue>651.0</demandValue>
+    </demand>
+    <demand id="n2_DemN16_N09">
+      <source>n2_N16</source>
+      <target>n2_N09</target>
+      <demandValue>1098.0</demandValue>
+    </demand>
+    <demand id="n2_DemN16_N20">
+      <source>n2_N16</source>
+      <target>n2_N20</target>
+      <demandValue>875.0</demandValue>
+    </demand>
+    <demand id="n2_DemN16_N25">
+      <source>n2_N16</source>
+      <target>n2_N25</target>
+      <demandValue>437.0</demandValue>
+    </demand>
+    <demand id="n2_DemN18_N03">
+      <source>n2_N18</source>
+      <target>n2_N03</target>
+      <demandValue>272.0</demandValue>
+    </demand>
+    <demand id="n2_DemN18_N08">
+      <source>n2_N18</source>
+      <target>n2_N08</target>
+      <demandValue>204.0</demandValue>
+    </demand>
+    <demand id="n2_DemN18_N09">
+      <source>n2_N18</source>
+      <target>n2_N09</target>
+      <demandValue>680.0</demandValue>
+    </demand>
+    <demand id="n2_DemN18_N11">
+      <source>n2_N18</source>
+      <target>n2_N11</target>
+      <demandValue>204.0</demandValue>
+    </demand>
+    <demand id="n2_DemN18_N16">
+      <source>n2_N18</source>
+      <target>n2_N16</target>
+      <demandValue>544.0</demandValue>
+    </demand>
+    <demand id="n2_DemN18_N21">
+      <source>n2_N18</source>
+      <target>n2_N21</target>
+      <demandValue>136.0</demandValue>
+    </demand>
+    <demand id="n2_DemN20_N11">
+      <source>n2_N20</source>
+      <target>n2_N11</target>
+      <demandValue>320.0</demandValue>
+    </demand>
+    <demand id="n2_DemN20_N13">
+      <source>n2_N20</source>
+      <target>n2_N13</target>
+      <demandValue>437.0</demandValue>
+    </demand>
+    <demand id="n2_DemN20_N15">
+      <source>n2_N20</source>
+      <target>n2_N15</target>
+      <demandValue>1312.0</demandValue>
+    </demand>
+    <demand id="n2_DemN20_N18">
+      <source>n2_N20</source>
+      <target>n2_N18</target>
+      <demandValue>544.0</demandValue>
+    </demand>
+    <demand id="n2_DemN20_N21">
+      <source>n2_N20</source>
+      <target>n2_N21</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN20_N25">
+      <source>n2_N20</source>
+      <target>n2_N25</target>
+      <demandValue>437.0</demandValue>
+    </demand>
+    <demand id="n2_DemN21_N03">
+      <source>n2_N21</source>
+      <target>n2_N03</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_DemN21_N08">
+      <source>n2_N21</source>
+      <target>n2_N08</target>
+      <demandValue>77.0</demandValue>
+    </demand>
+    <demand id="n2_DemN21_N09">
+      <source>n2_N21</source>
+      <target>n2_N09</target>
+      <demandValue>272.0</demandValue>
+    </demand>
+    <demand id="n2_DemN21_N13">
+      <source>n2_N21</source>
+      <target>n2_N13</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_DemN21_N16">
+      <source>n2_N21</source>
+      <target>n2_N16</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN21_N22">
+      <source>n2_N21</source>
+      <target>n2_N22</target>
+      <demandValue>301.0</demandValue>
+    </demand>
+    <demand id="n2_DemN22_N03">
+      <source>n2_N22</source>
+      <target>n2_N03</target>
+      <demandValue>602.0</demandValue>
+    </demand>
+    <demand id="n2_DemN22_N14">
+      <source>n2_N22</source>
+      <target>n2_N14</target>
+      <demandValue>301.0</demandValue>
+    </demand>
+    <demand id="n2_DemN22_N15">
+      <source>n2_N22</source>
+      <target>n2_N15</target>
+      <demandValue>1808.0</demandValue>
+    </demand>
+    <demand id="n2_DemN22_N16">
+      <source>n2_N22</source>
+      <target>n2_N16</target>
+      <demandValue>1205.0</demandValue>
+    </demand>
+    <demand id="n2_DemN22_N18">
+      <source>n2_N22</source>
+      <target>n2_N18</target>
+      <demandValue>748.0</demandValue>
+    </demand>
+    <demand id="n2_DemN22_N20">
+      <source>n2_N22</source>
+      <target>n2_N20</target>
+      <demandValue>1205.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N03">
+      <source>n2_N25</source>
+      <target>n2_N03</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N08">
+      <source>n2_N25</source>
+      <target>n2_N08</target>
+      <demandValue>155.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N11">
+      <source>n2_N25</source>
+      <target>n2_N11</target>
+      <demandValue>155.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N13">
+      <source>n2_N25</source>
+      <target>n2_N13</target>
+      <demandValue>213.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N18">
+      <source>n2_N25</source>
+      <target>n2_N18</target>
+      <demandValue>272.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N21">
+      <source>n2_N25</source>
+      <target>n2_N21</target>
+      <demandValue>106.0</demandValue>
+    </demand>
+    <demand id="n2_DemN25_N22">
+      <source>n2_N25</source>
+      <target>n2_N22</target>
+      <demandValue>602.0</demandValue>
+    </demand>
+    <demand id="n3_Augsburg_Bayreuth">
+      <source>n3_Augsburg</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Augsburg_Kempten">
+      <source>n3_Augsburg</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Augsburg_Nuernberg">
+      <source>n3_Augsburg</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Augsburg_Wuerzburg">
+      <source>n3_Augsburg</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Bayreuth_Regensburg">
+      <source>n3_Bayreuth</source>
+      <target>n3_Regensburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Bayreuth_Wuerzburg">
+      <source>n3_Bayreuth</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Augsburg">
+      <source>n3_Berlin</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Bayreuth">
+      <source>n3_Berlin</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Chemnitz">
+      <source>n3_Berlin</source>
+      <target>n3_Chemnitz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Dresden">
+      <source>n3_Berlin</source>
+      <target>n3_Dresden</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Erfurt">
+      <source>n3_Berlin</source>
+      <target>n3_Erfurt</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Frankfurt">
+      <source>n3_Berlin</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>16.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Freiburg">
+      <source>n3_Berlin</source>
+      <target>n3_Freiburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Fulda">
+      <source>n3_Berlin</source>
+      <target>n3_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Giessen">
+      <source>n3_Berlin</source>
+      <target>n3_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Kaiserslautern">
+      <source>n3_Berlin</source>
+      <target>n3_Kaiserslautern</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Karlsruhe">
+      <source>n3_Berlin</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Kassel">
+      <source>n3_Berlin</source>
+      <target>n3_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Konstanz">
+      <source>n3_Berlin</source>
+      <target>n3_Konstanz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Leipzig">
+      <source>n3_Berlin</source>
+      <target>n3_Leipzig</target>
+      <demandValue>20.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Magdeburg">
+      <source>n3_Berlin</source>
+      <target>n3_Magdeburg</target>
+      <demandValue>7.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Mannheim">
+      <source>n3_Berlin</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Muenchen">
+      <source>n3_Berlin</source>
+      <target>n3_Muenchen</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Nuernberg">
+      <source>n3_Berlin</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Passau">
+      <source>n3_Berlin</source>
+      <target>n3_Passau</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Saarbruecken">
+      <source>n3_Berlin</source>
+      <target>n3_Saarbruecken</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Stuttgart">
+      <source>n3_Berlin</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Ulm">
+      <source>n3_Berlin</source>
+      <target>n3_Ulm</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Berlin_Wuerzburg">
+      <source>n3_Berlin</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Augsburg">
+      <source>n3_Chemnitz</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Bayreuth">
+      <source>n3_Chemnitz</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Frankfurt">
+      <source>n3_Chemnitz</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Giessen">
+      <source>n3_Chemnitz</source>
+      <target>n3_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Karlsruhe">
+      <source>n3_Chemnitz</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Magdeburg">
+      <source>n3_Chemnitz</source>
+      <target>n3_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Mannheim">
+      <source>n3_Chemnitz</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Muenchen">
+      <source>n3_Chemnitz</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Nuernberg">
+      <source>n3_Chemnitz</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Stuttgart">
+      <source>n3_Chemnitz</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Chemnitz_Wuerzburg">
+      <source>n3_Chemnitz</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Augsburg">
+      <source>n3_Dresden</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Bayreuth">
+      <source>n3_Dresden</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Chemnitz">
+      <source>n3_Dresden</source>
+      <target>n3_Chemnitz</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Erfurt">
+      <source>n3_Dresden</source>
+      <target>n3_Erfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Frankfurt">
+      <source>n3_Dresden</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Freiburg">
+      <source>n3_Dresden</source>
+      <target>n3_Freiburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Karlsruhe">
+      <source>n3_Dresden</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Kassel">
+      <source>n3_Dresden</source>
+      <target>n3_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Konstanz">
+      <source>n3_Dresden</source>
+      <target>n3_Konstanz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Magdeburg">
+      <source>n3_Dresden</source>
+      <target>n3_Magdeburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Mannheim">
+      <source>n3_Dresden</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Muenchen">
+      <source>n3_Dresden</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Nuernberg">
+      <source>n3_Dresden</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Regensburg">
+      <source>n3_Dresden</source>
+      <target>n3_Regensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Stuttgart">
+      <source>n3_Dresden</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Ulm">
+      <source>n3_Dresden</source>
+      <target>n3_Ulm</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Dresden_Wuerzburg">
+      <source>n3_Dresden</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Augsburg">
+      <source>n3_Erfurt</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Bayreuth">
+      <source>n3_Erfurt</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Chemnitz">
+      <source>n3_Erfurt</source>
+      <target>n3_Chemnitz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Frankfurt">
+      <source>n3_Erfurt</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Fulda">
+      <source>n3_Erfurt</source>
+      <target>n3_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Giessen">
+      <source>n3_Erfurt</source>
+      <target>n3_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Karlsruhe">
+      <source>n3_Erfurt</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Kassel">
+      <source>n3_Erfurt</source>
+      <target>n3_Kassel</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Magdeburg">
+      <source>n3_Erfurt</source>
+      <target>n3_Magdeburg</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Mannheim">
+      <source>n3_Erfurt</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Muenchen">
+      <source>n3_Erfurt</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Nuernberg">
+      <source>n3_Erfurt</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Stuttgart">
+      <source>n3_Erfurt</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Erfurt_Wuerzburg">
+      <source>n3_Erfurt</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Augsburg">
+      <source>n3_Frankfurt</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Bayreuth">
+      <source>n3_Frankfurt</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Freiburg">
+      <source>n3_Frankfurt</source>
+      <target>n3_Freiburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Fulda">
+      <source>n3_Frankfurt</source>
+      <target>n3_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Giessen">
+      <source>n3_Frankfurt</source>
+      <target>n3_Giessen</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Kaiserslautern">
+      <source>n3_Frankfurt</source>
+      <target>n3_Kaiserslautern</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Karlsruhe">
+      <source>n3_Frankfurt</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>8.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Kempten">
+      <source>n3_Frankfurt</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Konstanz">
+      <source>n3_Frankfurt</source>
+      <target>n3_Konstanz</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Mannheim">
+      <source>n3_Frankfurt</source>
+      <target>n3_Mannheim</target>
+      <demandValue>35.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Muenchen">
+      <source>n3_Frankfurt</source>
+      <target>n3_Muenchen</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Nuernberg">
+      <source>n3_Frankfurt</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>23.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Passau">
+      <source>n3_Frankfurt</source>
+      <target>n3_Passau</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Regensburg">
+      <source>n3_Frankfurt</source>
+      <target>n3_Regensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Saarbruecken">
+      <source>n3_Frankfurt</source>
+      <target>n3_Saarbruecken</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Stuttgart">
+      <source>n3_Frankfurt</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>19.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Ulm">
+      <source>n3_Frankfurt</source>
+      <target>n3_Ulm</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Frankfurt_Wuerzburg">
+      <source>n3_Frankfurt</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Freiburg_Muenchen">
+      <source>n3_Freiburg</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Fulda_Bayreuth">
+      <source>n3_Fulda</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Fulda_Karlsruhe">
+      <source>n3_Fulda</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Fulda_Muenchen">
+      <source>n3_Fulda</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Fulda_Nuernberg">
+      <source>n3_Fulda</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Fulda_Stuttgart">
+      <source>n3_Fulda</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Fulda_Wuerzburg">
+      <source>n3_Fulda</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Giessen_Fulda">
+      <source>n3_Giessen</source>
+      <target>n3_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Giessen_Karlsruhe">
+      <source>n3_Giessen</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Giessen_Muenchen">
+      <source>n3_Giessen</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Giessen_Nuernberg">
+      <source>n3_Giessen</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Giessen_Stuttgart">
+      <source>n3_Giessen</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Giessen_Wuerzburg">
+      <source>n3_Giessen</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kaiserslautern_Karlsruhe">
+      <source>n3_Kaiserslautern</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Kaiserslautern_Muenchen">
+      <source>n3_Kaiserslautern</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kaiserslautern_Saarbruecken">
+      <source>n3_Kaiserslautern</source>
+      <target>n3_Saarbruecken</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kaiserslautern_Stuttgart">
+      <source>n3_Kaiserslautern</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Augsburg">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Bayreuth">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Freiburg">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Freiburg</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Kempten">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Konstanz">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Konstanz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Muenchen">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Muenchen</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Nuernberg">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Ulm">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Ulm</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Karlsruhe_Wuerzburg">
+      <source>n3_Karlsruhe</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Frankfurt">
+      <source>n3_Kassel</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Fulda">
+      <source>n3_Kassel</source>
+      <target>n3_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Giessen">
+      <source>n3_Kassel</source>
+      <target>n3_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Karlsruhe">
+      <source>n3_Kassel</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Mannheim">
+      <source>n3_Kassel</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Muenchen">
+      <source>n3_Kassel</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Nuernberg">
+      <source>n3_Kassel</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Kassel_Stuttgart">
+      <source>n3_Kassel</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Konstanz_Augsburg">
+      <source>n3_Konstanz</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Konstanz_Bayreuth">
+      <source>n3_Konstanz</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Konstanz_Freiburg">
+      <source>n3_Konstanz</source>
+      <target>n3_Freiburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Konstanz_Kempten">
+      <source>n3_Konstanz</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Konstanz_Muenchen">
+      <source>n3_Konstanz</source>
+      <target>n3_Muenchen</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Augsburg">
+      <source>n3_Leipzig</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Chemnitz">
+      <source>n3_Leipzig</source>
+      <target>n3_Chemnitz</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Dresden">
+      <source>n3_Leipzig</source>
+      <target>n3_Dresden</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Erfurt">
+      <source>n3_Leipzig</source>
+      <target>n3_Erfurt</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Frankfurt">
+      <source>n3_Leipzig</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Karlsruhe">
+      <source>n3_Leipzig</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Magdeburg">
+      <source>n3_Leipzig</source>
+      <target>n3_Magdeburg</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Mannheim">
+      <source>n3_Leipzig</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Muenchen">
+      <source>n3_Leipzig</source>
+      <target>n3_Muenchen</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Nuernberg">
+      <source>n3_Leipzig</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Stuttgart">
+      <source>n3_Leipzig</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Ulm">
+      <source>n3_Leipzig</source>
+      <target>n3_Ulm</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Leipzig_Wuerzburg">
+      <source>n3_Leipzig</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Augsburg">
+      <source>n3_Magdeburg</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Bayreuth">
+      <source>n3_Magdeburg</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Frankfurt">
+      <source>n3_Magdeburg</source>
+      <target>n3_Frankfurt</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Karlsruhe">
+      <source>n3_Magdeburg</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Mannheim">
+      <source>n3_Magdeburg</source>
+      <target>n3_Mannheim</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Muenchen">
+      <source>n3_Magdeburg</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Nuernberg">
+      <source>n3_Magdeburg</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Stuttgart">
+      <source>n3_Magdeburg</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Magdeburg_Wuerzburg">
+      <source>n3_Magdeburg</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Augsburg">
+      <source>n3_Mannheim</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Bayreuth">
+      <source>n3_Mannheim</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Freiburg">
+      <source>n3_Mannheim</source>
+      <target>n3_Freiburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Fulda">
+      <source>n3_Mannheim</source>
+      <target>n3_Fulda</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Giessen">
+      <source>n3_Mannheim</source>
+      <target>n3_Giessen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Kaiserslautern">
+      <source>n3_Mannheim</source>
+      <target>n3_Kaiserslautern</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Karlsruhe">
+      <source>n3_Mannheim</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Kempten">
+      <source>n3_Mannheim</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Konstanz">
+      <source>n3_Mannheim</source>
+      <target>n3_Konstanz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Muenchen">
+      <source>n3_Mannheim</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Nuernberg">
+      <source>n3_Mannheim</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Saarbruecken">
+      <source>n3_Mannheim</source>
+      <target>n3_Saarbruecken</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Stuttgart">
+      <source>n3_Mannheim</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Ulm">
+      <source>n3_Mannheim</source>
+      <target>n3_Ulm</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Mannheim_Wuerzburg">
+      <source>n3_Mannheim</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Augsburg">
+      <source>n3_Muenchen</source>
+      <target>n3_Augsburg</target>
+      <demandValue>20.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Bayreuth">
+      <source>n3_Muenchen</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Kempten">
+      <source>n3_Muenchen</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Nuernberg">
+      <source>n3_Muenchen</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>32.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Passau">
+      <source>n3_Muenchen</source>
+      <target>n3_Passau</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Regensburg">
+      <source>n3_Muenchen</source>
+      <target>n3_Regensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Muenchen_Wuerzburg">
+      <source>n3_Muenchen</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>3.0</demandValue>
+    </demand>
+    <demand id="n3_Nuernberg_Bayreuth">
+      <source>n3_Nuernberg</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>5.0</demandValue>
+    </demand>
+    <demand id="n3_Nuernberg_Regensburg">
+      <source>n3_Nuernberg</source>
+      <target>n3_Regensburg</target>
+      <demandValue>9.0</demandValue>
+    </demand>
+    <demand id="n3_Nuernberg_Wuerzburg">
+      <source>n3_Nuernberg</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>10.0</demandValue>
+    </demand>
+    <demand id="n3_Passau_Bayreuth">
+      <source>n3_Passau</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Passau_Nuernberg">
+      <source>n3_Passau</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Passau_Regensburg">
+      <source>n3_Passau</source>
+      <target>n3_Regensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Passau_Wuerzburg">
+      <source>n3_Passau</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Saarbruecken_Augsburg">
+      <source>n3_Saarbruecken</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Saarbruecken_Freiburg">
+      <source>n3_Saarbruecken</source>
+      <target>n3_Freiburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Saarbruecken_Karlsruhe">
+      <source>n3_Saarbruecken</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Saarbruecken_Muenchen">
+      <source>n3_Saarbruecken</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Saarbruecken_Nuernberg">
+      <source>n3_Saarbruecken</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Saarbruecken_Stuttgart">
+      <source>n3_Saarbruecken</source>
+      <target>n3_Stuttgart</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Augsburg">
+      <source>n3_Stuttgart</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Bayreuth">
+      <source>n3_Stuttgart</source>
+      <target>n3_Bayreuth</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Freiburg">
+      <source>n3_Stuttgart</source>
+      <target>n3_Freiburg</target>
+      <demandValue>6.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Karlsruhe">
+      <source>n3_Stuttgart</source>
+      <target>n3_Karlsruhe</target>
+      <demandValue>35.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Kempten">
+      <source>n3_Stuttgart</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Konstanz">
+      <source>n3_Stuttgart</source>
+      <target>n3_Konstanz</target>
+      <demandValue>4.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Muenchen">
+      <source>n3_Stuttgart</source>
+      <target>n3_Muenchen</target>
+      <demandValue>30.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Nuernberg">
+      <source>n3_Stuttgart</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>35.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Passau">
+      <source>n3_Stuttgart</source>
+      <target>n3_Passau</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Regensburg">
+      <source>n3_Stuttgart</source>
+      <target>n3_Regensburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Ulm">
+      <source>n3_Stuttgart</source>
+      <target>n3_Ulm</target>
+      <demandValue>11.0</demandValue>
+    </demand>
+    <demand id="n3_Stuttgart_Wuerzburg">
+      <source>n3_Stuttgart</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Ulm_Augsburg">
+      <source>n3_Ulm</source>
+      <target>n3_Augsburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Ulm_Kempten">
+      <source>n3_Ulm</source>
+      <target>n3_Kempten</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Ulm_Konstanz">
+      <source>n3_Ulm</source>
+      <target>n3_Konstanz</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Ulm_Muenchen">
+      <source>n3_Ulm</source>
+      <target>n3_Muenchen</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Ulm_Nuernberg">
+      <source>n3_Ulm</source>
+      <target>n3_Nuernberg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n3_Ulm_Wuerzburg">
+      <source>n3_Ulm</source>
+      <target>n3_Wuerzburg</target>
+      <demandValue>2.0</demandValue>
+    </demand>
+    <demand id="n4_AnnArborHouston">
+      <source>n4_Ann-Arbor</source>
+      <target>n4_Houston</target>
+      <demandValue>84.0</demandValue>
+    </demand>
+    <demand id="n4_AnnArborIthaca">
+      <source>n4_Ann-Arbor</source>
+      <target>n4_Ithaca</target>
+      <demandValue>110.0</demandValue>
+    </demand>
+    <demand id="n4_AnnArborPittsburgh">
+      <source>n4_Ann-Arbor</source>
+      <target>n4_Pittsburgh</target>
+      <demandValue>86.0</demandValue>
+    </demand>
+    <demand id="n4_AnnArborPrinceton">
+      <source>n4_Ann-Arbor</source>
+      <target>n4_Princeton</target>
+      <demandValue>32.0</demandValue>
+    </demand>
+    <demand id="n4_AnnArborSaltLakeCity">
+      <source>n4_Ann-Arbor</source>
+      <target>n4_Salt-Lake-City</target>
+      <demandValue>26.0</demandValue>
+    </demand>
+    <demand id="n4_HoustonSaltLakeCity">
+      <source>n4_Houston</source>
+      <target>n4_Salt-Lake-City</target>
+      <demandValue>40.0</demandValue>
+    </demand>
+    <demand id="n4_IthacaHouston">
+      <source>n4_Ithaca</source>
+      <target>n4_Houston</target>
+      <demandValue>122.0</demandValue>
+    </demand>
+    <demand id="n4_IthacaPittsburgh">
+      <source>n4_Ithaca</source>
+      <target>n4_Pittsburgh</target>
+      <demandValue>324.0</demandValue>
+    </demand>
+    <demand id="n4_IthacaSaltLakeCity">
+      <source>n4_Ithaca</source>
+      <target>n4_Salt-Lake-City</target>
+      <demandValue>36.0</demandValue>
+    </demand>
+    <demand id="n4_PittsburghHouston">
+      <source>n4_Pittsburgh</source>
+      <target>n4_Houston</target>
+      <demandValue>94.0</demandValue>
+    </demand>
+    <demand id="n4_PittsburghSaltLakeCity">
+      <source>n4_Pittsburgh</source>
+      <target>n4_Salt-Lake-City</target>
+      <demandValue>28.0</demandValue>
+    </demand>
+    <demand id="n4_PrincetonHouston">
+      <source>n4_Princeton</source>
+      <target>n4_Houston</target>
+      <demandValue>36.0</demandValue>
+    </demand>
+    <demand id="n4_PrincetonIthaca">
+      <source>n4_Princeton</source>
+      <target>n4_Ithaca</target>
+      <demandValue>168.0</demandValue>
+    </demand>
+    <demand id="n4_PrincetonPittsburgh">
+      <source>n4_Princeton</source>
+      <target>n4_Pittsburgh</target>
+      <demandValue>236.0</demandValue>
+    </demand>
+    <demand id="n4_PrincetonSaltLakeCity">
+      <source>n4_Princeton</source>
+      <target>n4_Salt-Lake-City</target>
+      <demandValue>12.0</demandValue>
+    </demand>
+    <demand id="n4_WashingtonAnnArbor">
+      <source>n4_Washington</source>
+      <target>n4_Ann-Arbor</target>
+      <demandValue>70.0</demandValue>
+    </demand>
+    <demand id="n4_WashingtonHouston">
+      <source>n4_Washington</source>
+      <target>n4_Houston</target>
+      <demandValue>78.0</demandValue>
+    </demand>
+    <demand id="n4_WashingtonIthaca">
+      <source>n4_Washington</source>
+      <target>n4_Ithaca</target>
+      <demandValue>168.0</demandValue>
+    </demand>
+    <demand id="n4_WashingtonPittsburgh">
+      <source>n4_Washington</source>
+      <target>n4_Pittsburgh</target>
+      <demandValue>194.0</demandValue>
+    </demand>
+    <demand id="n4_WashingtonPrinceton">
+      <source>n4_Washington</source>
+      <target>n4_Princeton</target>
+      <demandValue>60.0</demandValue>
+    </demand>
+    <demand id="n4_WashingtonSaltLakeCity">
+      <source>n4_Washington</source>
+      <target>n4_Salt-Lake-City</target>
+      <demandValue>24.0</demandValue>
+    </demand>
+  </demands>
+</network>

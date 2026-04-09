@@ -1,0 +1,19 @@
+# Oracle Read Mode Settings for Testing
+# Read mode uses strategy="oracle" with mode="read" to replay recorded cuts
+# All other settings should match benders_standard for deterministic baseline
+
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "none"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "oracle"
+    
+    [BENDERS.SUBPROBLEM_SELECTION.oracle]
+        mode = "read"
+        filepath = "check/oracle/test_abilene.csv"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

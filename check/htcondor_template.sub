@@ -1,0 +1,49 @@
+# HTCondor Submit Description File
+# Network Design Benders Decomposition Testing
+
+# Executable and arguments
+# Will be set by run_cluster_test.sh:
+# executable = /usr/bin/julia
+# arguments = test_instance.jl <network_file> <settings_file> <output_csv>
+
+universe = vanilla
+
+# Environment variables
+# Set local depot path to avoid conflicts on shared home directory
+
+# Job name and batch identification
+# Will be set by run_cluster_test.sh:
+# +JobBatchName = "benders-<testset>-<timestamp>"
+
+# Output, error, and log files
+# Will be set by run_cluster_test.sh:
+# output = logs/<instance>-<config>.out
+# error = logs/<instance>-<config>.err
+# log = logs/condor.log
+
+# File transfer settings
+#should_transfer_files = yes
+#when_to_transfer_output = on_exit_or_evict
+#transfer_input_files = test_instance.jl,../Project.toml,../Manifest.toml,../src/,../settings/,../../data/sndlib/
+
+# Keep job running location info
+#transfer_executable = false
+
+# Performance settings
+# Remove if running > 4 hours
+periodic_remove = (JobStatus == 2) && ((CurrentTime - EnteredCurrentStatus) > 14400)
+
+# Memory retry settings
+# Request more memory on subsequent runs if job fails
+request_memory = ifthenelse(NumJobStarts == 0, 12288, 24576)
+max_retries = 1
+
+# Node exclusions
+# Exclude problematic nodes (nodes with rsync/juliaup failures)
+requirements = (Machine != "clustOR45.or.rwth-aachen.de")
+
+# Email notifications (optional)
+# notification = Error
+# notify_user = your_email@example.com
+
+# Note: Do not add 'queue' here - it will be added by run_cluster_test.sh

@@ -1,0 +1,41 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+    [BENDERS.SUBPROBLEM_SCORING.score]
+        # Multi-criteria scoring weights
+        # Components: [violation, reliability, reliability_filtered, total_share, stabilization, ml_prediction]
+        # - violation (r_v): Average violation magnitude when cut was added
+        # - reliability (r_r): Fraction of times scenario generated a cut (before filtering)
+        # - reliability_filtered (r_rf): Fraction of times scenario's cut passed filtering and was added
+        # - total_share (r_t): Fraction of all cuts produced by this scenario
+        # - stabilization (r_z): Rounds since last solved (staleness)
+        # - ml_prediction (r_ml): ML-predicted probability that scenario will yield a cut
+        # Default: [0.05, 0.0, 0.8, 0.05, 0.1, 0.0] - prioritize filtered reliability, no ML yet
+        weights = [0.0, 0.0, 0.8, 0.15, 0.1, 0.0]
+
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        # --- Stopping Criteria ---
+        # These must be defined BEFORE nested tables due to TOML parsing rules
+        
+        # Minimum score threshold - stop when next scenario score falls below this
+        # Use -1.0 to disable
+        min_score_threshold = -1.0
+
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            # Limit mode: "absolute" or "relative"
+            # - "absolute": Fixed number of cuts
+            # - "relative": Fraction of total scenarios (e.g., 0.1 = 10% of scenarios)
+            mode = "absolute"
+            
+            # Absolute limit: Maximum cuts per iteration (used when mode = "absolute")
+            # Use -1 for unlimited
+            absolute = 5
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"

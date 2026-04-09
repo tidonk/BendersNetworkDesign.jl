@@ -1,0 +1,33 @@
+[MODEL]
+    model_type = "benders"
+
+[BENDERS.SUBPROBLEM_SCORING]
+    ordering = "score"
+
+[BENDERS.SUBPROBLEM_SELECTION]
+    strategy = "static"
+
+    stabilization_frequency = 20
+
+    [BENDERS.SUBPROBLEM_SELECTION.static]
+        # --- Stopping Criteria ---
+        # These must be defined BEFORE nested tables due to TOML parsing rules
+        
+        # Minimum score threshold - stop when next scenario score falls below this
+        # Use -1.0 to disable
+        min_score_threshold = 0.5
+
+
+        [BENDERS.SUBPROBLEM_SELECTION.static.cut_limit]
+            # Limit mode: "absolute" or "relative"
+            # - "absolute": Fixed number of cuts
+            # - "relative": Fraction of total scenarios (e.g., 0.1 = 10% of scenarios)
+            mode = "absolute"
+            
+            # Absolute limit: Maximum cuts per iteration (used when mode = "absolute")
+            # Use -1 for unlimited
+            absolute = -1
+
+
+[BENDERS.CUT_FILTERING]
+    strategy = "none"
