@@ -19,6 +19,12 @@ makedocs(
             "I/O Functions" => "api/io.md",
         ],
     ],
-    repo = "https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl",
+    repo = "https://github.com/tidonk/BendersNetworkDesign.jl",
     checkdocs = :none   # Don't error on missing docstrings
+)
+
+deploydocs(
+    repo = "github.com/tidonk/BendersNetworkDesign.jl",
+    devbranch = "main",
+    push_preview = false
 )

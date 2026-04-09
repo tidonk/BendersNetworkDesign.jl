@@ -4,10 +4,10 @@ We welcome contributions to BendersNetworkDesign.jl! This document provides guid
 
 ## Getting Started
 
-1. Fork the repository on GitLab
+1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://git.or.rwth-aachen.de/your-username/BendersNetworkDesign.jl.git
+   git clone https://github.com/your-username/BendersNetworkDesign.jl.git
    cd BendersNetworkDesign.jl
    ```
 3. Set up the development environment:
@@ -69,7 +69,7 @@ We welcome contributions to BendersNetworkDesign.jl! This document provides guid
    git push origin feature/your-feature-name
    ```
 
-2. Create a Merge Request (MR) on GitLab:
+2. Create a Pull Request (PR) on GitHub:
    - Provide a clear description of the changes
    - Reference any related issues
    - Ensure the CI pipeline passes
@@ -91,7 +91,7 @@ When reporting issues, please include:
 ## Questions?
 
 For questions or discussions, please:
-- Open an issue on GitLab
-- Check the documentation: https://git.or.rwth-aachen.de/pages/benders-subproblem-selection/BendersNetworkDesign.jl/
+- Open an issue on GitHub
+- Check the documentation: https://tidonk.github.io/BendersNetworkDesign.jl/
 
 Thank you for contributing to BendersNetworkDesign.jl!

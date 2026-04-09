@@ -1,8 +1,6 @@
 # BendersNetworkDesign.jl
 
-[![Pipeline Status](https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl/badges/main/pipeline.svg)](https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl/-/commits/main)
-[![Coverage](https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl/badges/main/coverage.svg)](https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl/-/commits/main)
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://git.or.rwth-aachen.de/pages/benders-subproblem-selection/BendersNetworkDesign.jl/)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://tidonk.github.io/BendersNetworkDesign.jl/)
 
 Benders decomposition for survivable network design with scenario prioritization.
 
@@ -48,7 +46,7 @@ TODO: add a graph overview of the directories
 ## Quick Start
 
 ```bash
-git clone https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl.git
+git clone https://github.com/tidonk/BendersNetworkDesign.jl.git
 cd BendersNetworkDesign.jl
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 julia --project=. Main.jl
@@ -82,7 +80,7 @@ julia --project=. examples/run_oracle.jl
 
 Oracle data defaults to `check/oracle/<instance_name>.csv` or can be specified in settings.
 
-See [documentation](https://git.or.rwth-aachen.de/pages/benders-subproblem-selection/BendersNetworkDesign.jl/) for all options including ML configuration (with exponential decay for weighted statistics), solver settings, stopping criteria, and adaptive strategies.
+See [documentation](https://tidonk.github.io/BendersNetworkDesign.jl/) for all options including ML configuration (with exponential decay for weighted statistics), solver settings, stopping criteria, and adaptive strategies.
 
 ## Examples
 
@@ -215,7 +213,7 @@ Key exports:
 
 Data structures: `Settings`, `SNDlibNetwork`, `OutageScenario`, `SubproblemScore`
 
-See [API documentation](https://git.or.rwth-aachen.de/pages/benders-subproblem-selection/BendersNetworkDesign.jl/) for complete reference.
+See [API documentation](https://tidonk.github.io/BendersNetworkDesign.jl/) for complete reference.
 
 ## Contributing
 
@@ -235,7 +233,7 @@ If you use this software in your research, please cite:
   title = {Adaptive Subproblem Selection for Benders Decomposition in Survivable Network Design},
   journal = {TODO: Add journal name},
   year = {2026},
-  url = {https://git.or.rwth-aachen.de/benders-subproblem-selection/BendersNetworkDesign.jl}
+  url = {https://github.com/tidonk/BendersNetworkDesign.jl}
 }
 ```
 
