@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>I/O Functions · BendersNetworkDesign.jl</title><meta name="title" content="I/O Functions · BendersNetworkDesign.jl"/><meta property="og:title" content="I/O Functions · BendersNetworkDesign.jl"/><meta property="twitter:title" content="I/O Functions · BendersNetworkDesign.jl"/><meta name="description" content="Documentation for BendersNetworkDesign.jl."/><meta property="og:description" content="Documentation for BendersNetworkDesign.jl."/><meta property="twitter:description" content="Documentation for BendersNetworkDesign.jl."/><script data-outdated-warner src="../../assets/warner.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.050/juliamono.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/katex.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL="../.."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="../../assets/documenter.js"></script><script src="../../search_index.js"></script><script src="../../siteinfo.js"></script><script src="../../../versions.js"></script><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../assets/themes/catppuccin-mocha.css" data-theme-name="catppuccin-mocha"/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../assets/themes/catppuccin-macchiato.css" data-theme-name="catppuccin-macchiato"/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../assets/themes/catppuccin-frappe.css" data-theme-name="catppuccin-frappe"/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../assets/themes/catppuccin-latte.css" data-theme-name="catppuccin-latte"/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../assets/themes/documenter-dark.css" data-theme-name="documenter-dark" data-theme-primary-dark/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../assets/themes/documenter-light.css" data-theme-name="documenter-light" data-theme-primary/><script src="../../assets/themeswap.js"></script></head><body><div id="documenter"><nav class="docs-sidebar"><div class="docs-package-name"><span class="docs-autofit"><a href="../../">BendersNetworkDesign.jl</a></span></div><button class="docs-search-query input is-rounded is-small is-clickable my-2 mx-auto py-1 px-2" id="documenter-search-query">Search docs (Ctrl + /)</button><ul class="docs-menu"><li><a class="tocitem" href="../../">Home</a></li><li><a class="tocitem" href="../../getting_started/">Getting Started</a></li><li><a class="tocitem" href="../../formulation/">Problem Formulation</a></li><li><a class="tocitem" href="../../configuration/">Configuration</a></li><li><a class="tocitem" href="../../instances/">Network Instances</a></li><li><span class="tocitem">API Reference</span><ul><li><a class="tocitem" href="../models/">Models</a></li><li><a class="tocitem" href="../selection/">Subproblem Selection</a></li><li class="is-active"><a class="tocitem" href>I/O Functions</a><ul class="internal"><li><a class="tocitem" href="#Network-Loading"><span>Network Loading</span></a></li><li><a class="tocitem" href="#Scenario-Generation"><span>Scenario Generation</span></a></li><li><a class="tocitem" href="#Settings"><span>Settings</span></a></li><li><a class="tocitem" href="#Solver-Configuration"><span>Solver Configuration</span></a></li><li><a class="tocitem" href="#Example:-Complete-Workflow"><span>Example: Complete Workflow</span></a></li></ul></li></ul></li></ul><div class="docs-version-selector field has-addons"><div class="control"><span class="docs-label button is-static is-size-7">Version</span></div><div class="docs-selector control is-expanded"><div class="select is-fullwidth is-size-7"><select id="documenter-version-selector"></select></div></div></div></nav><div class="docs-main"><header class="docs-navbar"><a class="docs-sidebar-button docs-navbar-link fa-solid fa-bars is-hidden-desktop" id="documenter-sidebar-button" href="#"></a><nav class="breadcrumb"><ul class="is-hidden-mobile"><li><a class="is-disabled">API Reference</a></li><li class="is-active"><a href>I/O Functions</a></li></ul><ul class="is-hidden-tablet"><li class="is-active"><a href>I/O Functions</a></li></ul></nav><div class="docs-right"><a class="docs-navbar-link" href="https://github.com/tidonk/BendersNetworkDesign.jl" title="Edit source on GitHub"><span class="docs-icon fa-solid"></span></a><a class="docs-settings-button docs-navbar-link fa-solid fa-gear" id="documenter-settings-button" href="#" title="Settings"></a><a class="docs-article-toggle-button fa-solid fa-chevron-up" id="documenter-article-toggle-button" href="javascript:;" title="Collapse all docstrings"></a></div></header><article class="content" id="documenter-page"><h1 id="I/O-Functions-API"><a class="docs-heading-anchor" href="#I/O-Functions-API">I/O Functions API</a><a id="I/O-Functions-API-1"></a><a class="docs-heading-anchor-permalink" href="#I/O-Functions-API" title="Permalink"></a></h1><h2 id="Network-Loading"><a class="docs-heading-anchor" href="#Network-Loading">Network Loading</a><a id="Network-Loading-1"></a><a class="docs-heading-anchor-permalink" href="#Network-Loading" title="Permalink"></a></h2><article><details class="docstring" open="true"><summary id="BendersNetworkDesign.read_sndlib_network"><a class="docstring-binding" href="#BendersNetworkDesign.read_sndlib_network"><code>BendersNetworkDesign.read_sndlib_network</code></a> — <span class="docstring-category">Function</span></summary><section><div><pre><code class="language-julia hljs">read_sndlib_network(filepath::String) -&gt; SNDlibNetwork</code></pre><p>Read an SNDlib network XML file and return a structured representation.</p></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section></details></article><h3 id="Network-Structure"><a class="docs-heading-anchor" href="#Network-Structure">Network Structure</a><a id="Network-Structure-1"></a><a class="docs-heading-anchor-permalink" href="#Network-Structure" title="Permalink"></a></h3><p>The <code>SNDlibNetwork</code> struct contains:</p><pre><code class="language-julia hljs">struct SNDlibNetwork
+    network_structure::NetworkStructure
+    demands::Dict{String, Demand}
+end
+
+struct NetworkStructure
+    nodes::Dict{String, Node}
+    links::Dict{String, Link}
+end
+
+struct Node
+    id::String
+    x_coord::Union{Float64, Nothing}
+    y_coord::Union{Float64, Nothing}
+end
+
+struct Link
+    id::String
+    source::String
+    target::String
+    preinstalled_capacity::Union{Float64, Nothing}
+    additional_modules::Vector{Tuple{Float64, Float64}}  # (capacity, cost)
+    setup_cost::Float64
+    routing_cost::Float64
+end
+
+struct Demand
+    id::String
+    source::String
+    target::String
+    demand_value::Float64
+end</code></pre><h2 id="Scenario-Generation"><a class="docs-heading-anchor" href="#Scenario-Generation">Scenario Generation</a><a id="Scenario-Generation-1"></a><a class="docs-heading-anchor-permalink" href="#Scenario-Generation" title="Permalink"></a></h2><article><details class="docstring" open="true"><summary id="BendersNetworkDesign.generate_outage_scenarios"><a class="docstring-binding" href="#BendersNetworkDesign.generate_outage_scenarios"><code>BendersNetworkDesign.generate_outage_scenarios</code></a> — <span class="docstring-category">Function</span></summary><section><div><pre><code class="language-julia hljs">generate_outage_scenarios(network::SNDlibNetwork; include_base_case::Bool=true, k::Int=1) -&gt; Vector{OutageScenario}</code></pre><p>Generate all valid k-link outage scenarios for the network.</p><p>Creates scenarios for all k-link failures (N-k contingencies), filtering out failures that would disconnect nodes with demands. Nodes without demands may be disconnected.</p><p><strong>Arguments</strong></p><ul><li><code>network</code>: The SNDlib network structure</li><li><code>include_base_case</code>: If true, include scenario with no failures (default: true)</li><li><code>k</code>: Number of simultaneous link failures (default: 1)</li></ul><p><strong>Returns</strong></p><p>Vector of <code>OutageScenario</code> objects. Base case (if included) is first with id=0.</p><p><strong>Performance Note</strong></p><p>Number of scenarios grows as C(n,k) where n is number of links:</p><ul><li>k=1: n scenarios (linear)</li><li>k=2: n*(n-1)/2 scenarios (quadratic)</li><li>k=3: n<em>(n-1)</em>(n-2)/6 scenarios (cubic)</li></ul><p>For large networks with k&gt;2, consider using sample<em>outage</em>scenarios instead.</p></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section></details></article><article><details class="docstring" open="true"><summary id="BendersNetworkDesign.OutageScenario"><a class="docstring-binding" href="#BendersNetworkDesign.OutageScenario"><code>BendersNetworkDesign.OutageScenario</code></a> — <span class="docstring-category">Type</span></summary><section><div><pre><code class="language-julia hljs">OutageScenario</code></pre><p>Represents a network outage scenario with one or more simultaneous link failures.</p><p><strong>Fields</strong></p><ul><li><code>id::Int</code>: Unique identifier for this scenario</li><li><code>failed_link_indices::Vector{Int}</code>: Indices of failed links (empty vector for base case)</li></ul></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section></details></article><h3 id="Example:-Generate-Scenarios"><a class="docs-heading-anchor" href="#Example:-Generate-Scenarios">Example: Generate Scenarios</a><a id="Example:-Generate-Scenarios-1"></a><a class="docs-heading-anchor-permalink" href="#Example:-Generate-Scenarios" title="Permalink"></a></h3><pre><code class="language-julia hljs"># Load network
+network = read_sndlib_network(&quot;data/sndlib/abilene.xml&quot;)
+
+# All single-link failures (include base case)
+scenarios_all = generate_outage_scenarios(network; 
+                                         num_scenarios=-1, 
+                                         include_base_case=true)
+println(&quot;Total scenarios: $(length(scenarios_all))&quot;)  # 16 for abilene (15 links + base)
+
+# Sample 5 random failures (no base case)
+scenarios_sample = generate_outage_scenarios(network;
+                                            num_scenarios=5,
+                                            include_base_case=false,
+                                            seed=42)
+
+# Custom scenarios
+custom = [
+    OutageScenario(1, [1, 3]),      # Links 1 and 3 fail
+    OutageScenario(2, [2]),         # Only link 2 fails
+    OutageScenario(3, Int[])        # Base case (no failures)
+]</code></pre><h2 id="Settings"><a class="docs-heading-anchor" href="#Settings">Settings</a><a id="Settings-1"></a><a class="docs-heading-anchor-permalink" href="#Settings" title="Permalink"></a></h2><article><details class="docstring" open="true"><summary id="BendersNetworkDesign.read_settings"><a class="docstring-binding" href="#BendersNetworkDesign.read_settings"><code>BendersNetworkDesign.read_settings</code></a> — <span class="docstring-category">Function</span></summary><section><div><pre><code class="language-julia hljs">read_settings(filepath::String)</code></pre><p>Read settings from a TOML file using template-based loading.</p><p>Loads default.toml as template with all parameters, then merges user-specified overrides from the provided filepath.</p><p>Parameters:</p><ul><li>filepath: Path to the TOML settings file (overrides)</li></ul><p>Returns:</p><ul><li>Settings struct with parsed configuration</li></ul><p>Throws:</p><ul><li>ErrorException if an unknown setting key is found in the user file</li></ul></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section><section><div><pre><code class="language-julia hljs">read_settings()</code></pre><p>Read settings from the default location (settings/default.toml).</p><p>Returns:</p><ul><li>Settings struct with parsed configuration</li></ul></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section></details></article><article><details class="docstring" open="true"><summary id="BendersNetworkDesign.Settings"><a class="docstring-binding" href="#BendersNetworkDesign.Settings"><code>BendersNetworkDesign.Settings</code></a> — <span class="docstring-category">Type</span></summary><section><div><pre><code class="language-julia hljs">Settings</code></pre><p>Configuration settings loaded from TOML file.</p></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section></details></article><h3 id="Settings-Structure"><a class="docs-heading-anchor" href="#Settings-Structure">Settings Structure</a><a id="Settings-Structure-1"></a><a class="docs-heading-anchor-permalink" href="#Settings-Structure" title="Permalink"></a></h3><pre><code class="language-julia hljs">struct Settings
+    # Solver
+    solver::String
+    time_limit::Int
+    
+    # Subproblem selection
+    subproblem_ordering::String
+    scoring_weights::Vector{Float64}
+    scoring_random_seed::Int
+    consecutive_miss::Limit
+    min_score_threshold::ScoreThreshold
+    iteration_time_limit::IterationTimeLimit
+    cut_limit::CutLimit
+    
+    # Stabilization
+    stabilization_frequency::Int
+    
+    # Output
+    validate_cuts::Bool
+    subproblem_verbose::Bool
+    subproblem_verbose_cuts_only::Bool
+end
+
+struct Limit
+    mode::String        # &quot;absolute&quot; or &quot;relative&quot;
+    absolute::Int
+    relative::Float64
+end
+
+struct ScoreThreshold
+    enabled::Bool
+    threshold::Float64
+end
+
+struct IterationTimeLimit
+    enabled::Bool
+    time_seconds::Float64
+end
+
+struct CutLimit
+    mode::String        # &quot;static&quot; or &quot;adaptive&quot;
+    static::Int
+    adaptive::AdaptiveParams
+end</code></pre><h3 id="Configuration-Loading"><a class="docs-heading-anchor" href="#Configuration-Loading">Configuration Loading</a><a id="Configuration-Loading-1"></a><a class="docs-heading-anchor-permalink" href="#Configuration-Loading" title="Permalink"></a></h3><p>The configuration system:</p><ol><li>Always loads <code>settings/default.toml</code> first</li><li>Merges user-specified settings on top</li><li>Validates all keys (reports unknown parameters)</li><li>Returns complete <code>Settings</code> struct</li></ol><pre><code class="language-julia hljs"># Use defaults
+settings = read_settings()
+
+# Override with custom file
+settings = read_settings(&quot;my_settings.toml&quot;)
+
+# Access settings
+println(&quot;Solver: $(settings.solver)&quot;)
+println(&quot;Cut limit: $(settings.cut_limit.static)&quot;)
+println(&quot;Scoring weights: $(settings.scoring_weights)&quot;)</code></pre><h2 id="Solver-Configuration"><a class="docs-heading-anchor" href="#Solver-Configuration">Solver Configuration</a><a id="Solver-Configuration-1"></a><a class="docs-heading-anchor-permalink" href="#Solver-Configuration" title="Permalink"></a></h2><article><details class="docstring" open="true"><summary id="BendersNetworkDesign.get_optimizer"><a class="docstring-binding" href="#BendersNetworkDesign.get_optimizer"><code>BendersNetworkDesign.get_optimizer</code></a> — <span class="docstring-category">Function</span></summary><section><div><pre><code class="language-julia hljs">get_optimizer(solver::Symbol)</code></pre><p>Get the optimizer constructor function for the specified solver.</p><p>Parameters:</p><ul><li>solver: Solver symbol (:Gurobi)</li></ul><p>Returns:</p><ul><li>Function that creates a configured optimizer instance</li></ul></div><a class="docs-sourcelink" target="_blank" href="https://github.com/tidonk/BendersNetworkDesign.jl">source</a></section></details></article><h3 id="Supported-Solvers"><a class="docs-heading-anchor" href="#Supported-Solvers">Supported Solvers</a><a id="Supported-Solvers-1"></a><a class="docs-heading-anchor-permalink" href="#Supported-Solvers" title="Permalink"></a></h3><ul><li><strong>Gurobi</strong>: Commercial solver with excellent performance (required)</li></ul><pre><code class="language-julia hljs"># Using Gurobi
+using Gurobi
+env = Gurobi.Env()
+optimizer = () -&gt; Gurobi.Optimizer(env)
+
+# From settings
+settings = read_settings(&quot;settings/default.toml&quot;)
+optimizer = get_optimizer(settings)</code></pre><h2 id="Example:-Complete-Workflow"><a class="docs-heading-anchor" href="#Example:-Complete-Workflow">Example: Complete Workflow</a><a id="Example:-Complete-Workflow-1"></a><a class="docs-heading-anchor-permalink" href="#Example:-Complete-Workflow" title="Permalink"></a></h2><pre><code class="language-julia hljs">using BendersNetworkDesign
+
+# 1. Load network
+network = read_sndlib_network(&quot;data/sndlib/abilene.xml&quot;)
+println(&quot;Nodes: $(length(network.network_structure.nodes))&quot;)
+println(&quot;Links: $(length(network.network_structure.links))&quot;)
+println(&quot;Demands: $(length(network.demands))&quot;)
+
+# 2. Generate scenarios
+scenarios = generate_outage_scenarios(network; 
+                                     num_scenarios=-1,
+                                     include_base_case=false)
+println(&quot;Scenarios: $(length(scenarios))&quot;)
+
+# 3. Load settings
+settings = read_settings(&quot;settings/default.toml&quot;)
+
+# 4. Get optimizer
+optimizer = get_optimizer(settings)
+
+# 5. Solve
+result = solve_benders(network;
+                      optimizer=optimizer,
+                      outage_scenarios=scenarios,
+                      settings=settings)
+
+# 6. Display results
+println(&quot;Objective: $(result.objective_value)&quot;)
+println(&quot;Status: $(result.status)&quot;)
+println(&quot;Iterations: $(result.iterations)&quot;)
+println(&quot;Cuts: $(result.total_cuts_added)&quot;)
+println(&quot;Subproblem time: $(result.subproblem_time)s&quot;)</code></pre></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../selection/">« Subproblem Selection</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="auto">Automatic (OS)</option><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option><option value="catppuccin-latte">catppuccin-latte</option><option value="catppuccin-frappe">catppuccin-frappe</option><option value="catppuccin-macchiato">catppuccin-macchiato</option><option value="catppuccin-mocha">catppuccin-mocha</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.16.1 on <span class="colophon-date" title="Thursday 9 April 2026 12:33">Thursday 9 April 2026</span>. Using Julia version 1.12.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
