@@ -225,16 +225,5 @@ This project is licensed under the [Creative Commons Attribution 4.0 Internation
 
 ## Citation
 
-If you use this software in your research, please cite:
-
-```bibtex
-@article{benders-subproblem-selection,
-  author = {TODO: Add author names},
-  title = {Adaptive Subproblem Selection for Benders Decomposition in Survivable Network Design},
-  journal = {TODO: Add journal name},
-  year = {2026},
-  url = {https://github.com/tidonk/BendersNetworkDesign.jl}
-}
-```
-
+If you use this software in your research, please cite.
 See [CITATION.bib](CITATION.bib) for the complete BibTeX entry.
